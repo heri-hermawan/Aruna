@@ -43,9 +43,8 @@ RUN npm run build
 RUN mkdir -p storage/framework/{sessions,views,cache,testing} storage/logs bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
 
-# Laravel optimization
-RUN php artisan config:cache \
-    && php artisan route:cache \
+# Laravel optimization (skip config cache karena ada error)
+RUN php artisan route:cache \
     && php artisan view:cache
 
 # Expose port
