@@ -1,0 +1,97 @@
+=== CHECKING ALL WISATA WITH MISSING IMAGES ===
+
+✓ Found 136 image files in public/images/wisata/
+
+Found 45 wisata(s) with NULL/empty image in database:
+
+  ✗ NO MATCH - ID: 7 | Jam Gadang (Sumatera Barat)
+  ✗ NO MATCH - ID: 9 | Pulau Cubadak (Sumatera Barat)
+  ✗ NO MATCH - ID: 10 | Masjid Agung An-Nur (Riau)
+  ✗ NO MATCH - ID: 11 | Taman Wisata Alam Tesso Nilo (Riau)
+  ✗ NO MATCH - ID: 12 | Danau Raja (Riau)
+  ✗ NO MATCH - ID: 14 | Danau Kaco (Jambi)
+  ✗ NO MATCH - ID: 15 | Taman Nasional Kerinci Seblat (Jambi)
+  ✗ NO MATCH - ID: 16 | Masjid Agung Palembang (Sumatera Selatan)
+  ✗ NO MATCH - ID: 17 | Jembatan Ampera (Sumatera Selatan)
+  ✗ NO MATCH - ID: 19 | Benteng Marlborough (Bengkulu)
+  ✗ NO MATCH - ID: 21 | Danau Dendam Tak Sudah (Bengkulu)
+  ✗ NO MATCH - ID: 23 | Way Kambas (Lampung)
+  ✗ NO MATCH - ID: 24 | Krakatau (Lampung)
+  ✗ NO MATCH - ID: 25 | Pantai Tanjung Tinggi (Kepulauan Bangka Belitung)
+  ✗ NO MATCH - ID: 27 | Danau Kaolin (Kepulauan Bangka Belitung)
+  ✗ NO MATCH - ID: 28 | Barelang Bridge (Kepulauan Riau)
+  ✗ NO MATCH - ID: 30 | Lagoi Beach (Kepulauan Riau)
+  ✗ NO MATCH - ID: 31 | Monas (DKI Jakarta)
+  ✗ NO MATCH - ID: 32 | Taman Mini Indonesia Indah (DKI Jakarta)
+  ✗ NO MATCH - ID: 33 | Kota Tua Jakarta (DKI Jakarta)
+  ✗ NO MATCH - ID: 34 | Tangkuban Perahu (Jawa Barat)
+  ✗ NO MATCH - ID: 36 | Green Canyon (Jawa Barat)
+  ✗ NO MATCH - ID: 38 | Candi Prambanan (Jawa Tengah)
+  ✗ NO MATCH - ID: 39 | Lawang Sewu (Jawa Tengah)
+  ✓ MATCH - ID: 89 | Danau Rano (Sulawesi Tengah)
+           File: Danau Rano.jpg
+  ✓ MATCH - ID: 92 | Pantai Natsepa (Maluku)
+           File: Pantai Natsepa.jpeg
+  ✓ MATCH - ID: 93 | Benteng Victoria (Maluku)
+           File: Benteng Victoria.jpg
+  ✓ MATCH - ID: 94 | Pulau Ternate (Maluku Utara)
+           File: Pulau Ternate.jpg
+  ✓ MATCH - ID: 95 | Danau Tolire (Maluku Utara)
+           File: Danau Tolire.jpeg
+  ✓ MATCH - ID: 96 | Pulau Halmahera (Maluku Utara)
+           File: Pulau Halmahera.jpeg
+  ✓ MATCH - ID: 100 | Teluk Cenderawasih (Papua Barat)
+           File: Teluk Cenderawasih.webp
+  ✓ MATCH - ID: 101 | Pulau Misool (Papua Barat)
+           File: Pulau Misool.jpeg
+  ✓ MATCH - ID: 102 | Arborek Island (Papua Barat)
+           File: Arborek Island.webp
+  ✓ MATCH - ID: 103 | Taman Nasional Lorentz (Papua Selatan)
+           File: Taman Nasional Lorentz.jpg
+  ✓ MATCH - ID: 104 | Pantai Lampu Satu (Papua Selatan)
+           File: Pantai Lampu Satu.jpg
+  ✓ MATCH - ID: 105 | Museum Asmat (Papua Selatan)
+           File: Museum Asmat.jpg
+  ✓ MATCH - ID: 106 | Puncak Jaya (Papua Tengah)
+           File: Puncak Jaya.jpeg
+  ✓ MATCH - ID: 107 | Danau Habbema (Papua Tengah)
+           File: Danau Habbema.jpg
+  ✓ MATCH - ID: 108 | Lembah Dani (Papua Tengah)
+           File: Lembah Dani.webp
+  ✓ MATCH - ID: 109 | Gunung Mandala (Papua Pegunungan)
+           File: Gunung Mandala.jpg
+  ✓ MATCH - ID: 110 | Lembah Yali (Papua Pegunungan)
+           File: Lembah Yali.jpg
+  ✓ MATCH - ID: 111 | Danau Pegunungan (Papua Pegunungan)
+           File: Danau Pegunungan.jpg
+  ✓ MATCH - ID: 112 | Pulau Kokas (Papua Barat Daya)
+           File: Pulau Kokas.jpg
+  ✓ MATCH - ID: 114 | Pantai Venu (Papua Barat Daya)
+           File: Pantai Venu.jpg
+  ✗ NO MATCH - ID: 168 | Taman Nasional Teluk Cenderawasih (Papua Barat)
+
+=== SUMMARY ===
+Total wisata with NULL images: 45
+Wisata with matching image files: 20
+
+These wisata can be automatically fixed:
+  - Danau Rano -> images/wisata/Danau Rano.jpg
+  - Pantai Natsepa -> images/wisata/Pantai Natsepa.jpeg
+  - Benteng Victoria -> images/wisata/Benteng Victoria.jpg
+  - Pulau Ternate -> images/wisata/Pulau Ternate.jpg
+  - Danau Tolire -> images/wisata/Danau Tolire.jpeg
+  - Pulau Halmahera -> images/wisata/Pulau Halmahera.jpeg
+  - Teluk Cenderawasih -> images/wisata/Teluk Cenderawasih.webp
+  - Pulau Misool -> images/wisata/Pulau Misool.jpeg
+  - Arborek Island -> images/wisata/Arborek Island.webp
+  - Taman Nasional Lorentz -> images/wisata/Taman Nasional Lorentz.jpg
+  - Pantai Lampu Satu -> images/wisata/Pantai Lampu Satu.jpg
+  - Museum Asmat -> images/wisata/Museum Asmat.jpg
+  - Puncak Jaya -> images/wisata/Puncak Jaya.jpeg
+  - Danau Habbema -> images/wisata/Danau Habbema.jpg
+  - Lembah Dani -> images/wisata/Lembah Dani.webp
+  - Gunung Mandala -> images/wisata/Gunung Mandala.jpg
+  - Lembah Yali -> images/wisata/Lembah Yali.jpg
+  - Danau Pegunungan -> images/wisata/Danau Pegunungan.jpg
+  - Pulau Kokas -> images/wisata/Pulau Kokas.jpg
+  - Pantai Venu -> images/wisata/Pantai Venu.jpg

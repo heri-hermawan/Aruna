@@ -1,0 +1,956 @@
+[
+    {
+        "id": 7,
+        "province_id": 3,
+        "name": "Tari Piring",
+        "description": "Tarian dengan piring di tangan yang menggambarkan rasa syukur",
+        "image": "\/images\/tradisi\/tari_piring.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T02:26:13.000000Z"
+    },
+    {
+        "id": 8,
+        "province_id": 3,
+        "name": "Batagak Penghulu",
+        "description": "Upacara pengangkatan penghulu adat Minangkabau yang sangat sakral",
+        "image": "\/images\/tradisi\/batagak_penghulu.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T02:26:13.000000Z"
+    },
+    {
+        "id": 9,
+        "province_id": 3,
+        "name": "Randai",
+        "description": "Teater tradisional Minangkabau yang menggabungkan seni tari, musik, dan drama",
+        "image": "\/images\/tradisi\/randai.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T02:26:13.000000Z"
+    },
+    {
+        "id": 10,
+        "province_id": 4,
+        "name": "Tari Zapin",
+        "description": "Tarian Melayu dengan pengaruh Arab yang elegan",
+        "image": "\/images\/tradisi\/tari_zapin.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T02:30:08.000000Z"
+    },
+    {
+        "id": 11,
+        "province_id": 4,
+        "name": "Makan Bedulang",
+        "description": "Tradisi makan bersama dalam satu wadah besar sebagai simbol kebersamaan",
+        "image": "\/images\/tradisi\/makan_bedulang.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T02:30:08.000000Z"
+    },
+    {
+        "id": 12,
+        "province_id": 4,
+        "name": "Tepuk Tepung Tawar",
+        "description": "Upacara penyambutan tamu kehormatan dengan tepung tawar",
+        "image": "\/images\/tradisi\/tepuk_tepung_tawar.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T02:30:08.000000Z"
+    },
+    {
+        "id": 13,
+        "province_id": 5,
+        "name": "Tari Sekapur Sirih",
+        "description": "Tarian penyambutan tamu dengan menyajikan sirih",
+        "image": "\/images\/tradisi\/tari_sekapur_sirih.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 14,
+        "province_id": 5,
+        "name": "Batanghari 9",
+        "description": "Upacara adat masyarakat Jambi untuk menghormati leluhur",
+        "image": "\/images\/tradisi\/batanghari_9.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 15,
+        "province_id": 5,
+        "name": "Tari Selampir Delapan",
+        "description": "Tarian kerajaan Jambi yang menggambarkan keanggunan putri",
+        "image": "\/images\/tradisi\/tari_selampir_delapan.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 16,
+        "province_id": 6,
+        "name": "Tari Gending Sriwijaya",
+        "description": "Tarian penyambutan yang menggambarkan kebesaran Sriwijaya",
+        "image": "\/images\/tradisi\/tari_gending_sriwijaya.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 17,
+        "province_id": 6,
+        "name": "Aesan Gede",
+        "description": "Pakaian pengantin adat Palembang yang mewah dan megah",
+        "image": "\/images\/tradisi\/aesan_gede.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 18,
+        "province_id": 6,
+        "name": "Bekhusek",
+        "description": "Tradisi membersihkan makam leluhur menjelang Ramadan",
+        "image": "\/images\/tradisi\/bekhusek.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 19,
+        "province_id": 7,
+        "name": "Tabot",
+        "description": "Upacara peringatan gugurnya cucu Nabi Muhammad",
+        "image": "\/images\/tradisi\/tabot.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 20,
+        "province_id": 7,
+        "name": "Tari Andun",
+        "description": "Tarian tradisional Bengkulu yang menggambarkan kehidupan sehari-hari",
+        "image": "\/images\/tradisi\/tari_andun.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 21,
+        "province_id": 7,
+        "name": "Besale",
+        "description": "Tradisi kunjungan silaturahmi saat hari raya",
+        "image": "\/images\/tradisi\/besale.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 22,
+        "province_id": 8,
+        "name": "Begawi Cakak Pepadun",
+        "description": "Upacara adat terbesar masyarakat Lampung",
+        "image": "\/images\/tradisi\/begawi_cakak_pepadun.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 23,
+        "province_id": 8,
+        "name": "Tari Melinting",
+        "description": "Tarian peperangan dari Lampung",
+        "image": "\/images\/tradisi\/tari_melinting.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:34:32.000000Z"
+    },
+    {
+        "id": 24,
+        "province_id": 8,
+        "name": "Siger",
+        "description": "Mahkota adat khas Lampung yang dikenakan pengantin",
+        "image": "\/images\/tradisi\/siger.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-31T04:48:03.000000Z"
+    },
+    {
+        "id": 25,
+        "province_id": 9,
+        "name": "Ruwahan",
+        "description": "Upacara pembersihan diri dan kampung secara spiritual",
+        "image": "\/images\/tradisi\/ruwahan.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 26,
+        "province_id": 9,
+        "name": "Tari Campak",
+        "description": "Tarian tradisional Bangka yang dinamis",
+        "image": "\/images\/tradisi\/tari_campak.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 27,
+        "province_id": 9,
+        "name": "Sepintu Sedulang",
+        "description": "Tradisi makan bersama dalam satu wadah",
+        "image": "\/images\/tradisi\/sepintu_sedulang.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 28,
+        "province_id": 10,
+        "name": "Tari Persembahan",
+        "description": "Tarian penyambutan tamu kehormatan Melayu",
+        "image": "\/images\/tradisi\/tari_persembahan.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 29,
+        "province_id": 10,
+        "name": "Makyong",
+        "description": "Teater tradisional Melayu yang dipentaskan pada malam hari",
+        "image": "\/images\/tradisi\/makyong.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 30,
+        "province_id": 10,
+        "name": "Rodat",
+        "description": "Seni musik dan tarian bernafaskan Islam",
+        "image": "\/images\/tradisi\/rodat.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 31,
+        "province_id": 11,
+        "name": "Ondel-Ondel",
+        "description": "Boneka besar khas Betawi sebagai penolak bala",
+        "image": "\/images\/tradisi\/ondel_ondel.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 32,
+        "province_id": 11,
+        "name": "Palang Pintu",
+        "description": "Tradisi pernikahan Betawi dengan adu pantun",
+        "image": "\/images\/tradisi\/palang_pintu.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 33,
+        "province_id": 11,
+        "name": "Tari Topeng",
+        "description": "Tarian dengan topeng khas Betawi",
+        "image": "\/images\/tradisi\/tari_topeng.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 34,
+        "province_id": 12,
+        "name": "Tari Jaipong",
+        "description": "Tarian tradisional Sunda yang enerjik dan dinamis",
+        "image": "\/images\/tradisi\/tari_jaipong.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 35,
+        "province_id": 12,
+        "name": "Ngalaksa",
+        "description": "Tradisi makan ngalaksa saat Rabu Wekasan sebagai bentuk sedekah",
+        "image": "\/images\/tradisi\/ngalaksa.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 36,
+        "province_id": 12,
+        "name": "Rengkong",
+        "description": "Upacara panen padi masyarakat Sunda",
+        "image": "\/images\/tradisi\/rengkong.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 37,
+        "province_id": 13,
+        "name": "Wayang Kulit",
+        "description": "Pertunjukan wayang dengan dalang, terdaftar UNESCO",
+        "image": "\/images\/tradisi\/wayang_kulit.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 38,
+        "province_id": 13,
+        "name": "Grebeg Syawal",
+        "description": "Perayaan tradisional Keraton Surakarta",
+        "image": "\/images\/tradisi\/grebeg_syawal.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 39,
+        "province_id": 13,
+        "name": "Mitoni",
+        "description": "Upacara tujuh bulanan kehamilan di Jawa",
+        "image": "\/images\/tradisi\/mitoni.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 40,
+        "province_id": 14,
+        "name": "Labuhan",
+        "description": "Upacara persembahan Sultan ke laut selatan dan Gunung Merapi",
+        "image": "\/images\/tradisi\/labuhan.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 41,
+        "province_id": 14,
+        "name": "Sekaten",
+        "description": "Peringatan Maulid Nabi di alun-alun Keraton",
+        "image": "\/images\/tradisi\/sekaten.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 42,
+        "province_id": 14,
+        "name": "Grebeg Maulud",
+        "description": "Upacara pembagian gunungan dari Keraton",
+        "image": "\/images\/tradisi\/grebeg_maulud.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:30:59.000000Z"
+    },
+    {
+        "id": 43,
+        "province_id": 15,
+        "name": "Reog Ponorogo",
+        "description": "Kesenian khas Ponorogo dengan topeng singa barong",
+        "image": "\/images\/tradisi\/reog_ponorogo.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:31:35.000000Z"
+    },
+    {
+        "id": 44,
+        "province_id": 15,
+        "name": "Karapan Sapi",
+        "description": "Tradisi balap sapi dari Madura",
+        "image": "\/images\/tradisi\/karapan_sapi.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T05:31:35.000000Z"
+    },
+    {
+        "id": 45,
+        "province_id": 15,
+        "name": "Ludruk",
+        "description": "Teater tradisional Jawa Timur dengan komedi",
+        "image": "\/images\/tradisi\/ludruk.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 46,
+        "province_id": 16,
+        "name": "Debus",
+        "description": "Kesenian bela diri spiritual khas Banten",
+        "image": "\/images\/tradisi\/debus.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 47,
+        "province_id": 16,
+        "name": "Tari Saman Banten",
+        "description": "Tarian kelompok yang penuh keselarasan",
+        "image": "\/images\/tradisi\/tari_saman_banten.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 48,
+        "province_id": 16,
+        "name": "Rampak Bedug",
+        "description": "Seni tabuh bedug secara bersamaan",
+        "image": "\/images\/tradisi\/rampak_bedug.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 49,
+        "province_id": 17,
+        "name": "Ngaben",
+        "description": "Upacara kremasi jenazah khas Bali yang megah",
+        "image": "\/images\/tradisi\/ngaben.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 50,
+        "province_id": 17,
+        "name": "Tari Kecak",
+        "description": "Tarian kolosal khas Bali dengan suara cak",
+        "image": "\/images\/tradisi\/tari_kecak.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 51,
+        "province_id": 17,
+        "name": "Nyepi",
+        "description": "Hari raya tahun baru Saka dengan hening sehari penuh",
+        "image": "\/images\/tradisi\/nyepi.png",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2026-01-03T13:24:22.000000Z"
+    },
+    {
+        "id": 52,
+        "province_id": 17,
+        "name": "Melasti",
+        "description": "Upacara penyucian arca ke laut sebelum Nyepi",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 53,
+        "province_id": 18,
+        "name": "Bau Nyale",
+        "description": "Tradisi menangkap cacing laut di Lombok",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 54,
+        "province_id": 18,
+        "name": "Peresean",
+        "description": "Pertarungan menggunakan rotan dan perisai",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 55,
+        "province_id": 18,
+        "name": "Tari Gandrung",
+        "description": "Tarian pergaulan muda-mudi Lombok",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 56,
+        "province_id": 19,
+        "name": "Pasola",
+        "description": "Permainan perang-perangan berkuda dari Sumba",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 57,
+        "province_id": 19,
+        "name": "Caci",
+        "description": "Tarian perang menggunakan cambuk dari Flores",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 58,
+        "province_id": 19,
+        "name": "Reba",
+        "description": "Upacara syukuran panen di Flores",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 59,
+        "province_id": 20,
+        "name": "Gawai Dayak",
+        "description": "Upacara syukur panen suku Dayak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 60,
+        "province_id": 20,
+        "name": "Tari Monong",
+        "description": "Tarian penyambutan tamu suku Dayak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 61,
+        "province_id": 20,
+        "name": "Naik Dango",
+        "description": "Upacara adat tolak bala Dayak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 62,
+        "province_id": 21,
+        "name": "Tiwah",
+        "description": "Upacara kematian suku Dayak Ngaju yang megah",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 63,
+        "province_id": 21,
+        "name": "Tari Tambun dan Bungai",
+        "description": "Tarian yang menceritakan legenda Dayak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 64,
+        "province_id": 21,
+        "name": "Balian",
+        "description": "Ritual pengobatan tradisional Dayak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 65,
+        "province_id": 22,
+        "name": "Baayun Maulid",
+        "description": "Upacara mandi-mandi bayi saat Maulid Nabi",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 66,
+        "province_id": 22,
+        "name": "Tari Baksa Kembang",
+        "description": "Tarian penyambutan tamu Banjar",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 67,
+        "province_id": 22,
+        "name": "Mamanda",
+        "description": "Teater tradisional khas Banjar",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 68,
+        "province_id": 23,
+        "name": "Erau",
+        "description": "Upacara adat terbesar Kesultanan Kutai",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 69,
+        "province_id": 23,
+        "name": "Tari Gong",
+        "description": "Tarian sakral suku Dayak Kenyah",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 70,
+        "province_id": 23,
+        "name": "Belian",
+        "description": "Ritual pengobatan dan tolak bala Dayak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 71,
+        "province_id": 24,
+        "name": "Tari Kancet Ledo",
+        "description": "Tarian penyambutan suku Dayak Kenyah",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 72,
+        "province_id": 24,
+        "name": "Hudoq",
+        "description": "Tarian ritual dengan topeng suku Dayak Bahau",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 73,
+        "province_id": 24,
+        "name": "Kwangkay",
+        "description": "Upacara kematian suku Dayak Lundayeh",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 74,
+        "province_id": 25,
+        "name": "Kabasaran",
+        "description": "Tarian perang suku Minahasa yang gagah",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 75,
+        "province_id": 25,
+        "name": "Tulude",
+        "description": "Festival tahunan Minahasa untuk syukuran",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 76,
+        "province_id": 25,
+        "name": "Maengket",
+        "description": "Tarian syukuran panen Minahasa",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 77,
+        "province_id": 26,
+        "name": "Tari Dero",
+        "description": "Tarian tradisional Kaili yang dinamis",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 78,
+        "province_id": 26,
+        "name": "Wunja Tadulako",
+        "description": "Upacara adat suku Kaili",
+        "image": null,
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z"
+    },
+    {
+        "id": 80,
+        "province_id": 27,
+        "name": "Mappanre Tassi",
+        "description": "Ritual menangkap ikan pertama kali nelayan Bugis",
+        "image": "\/images\/tradisi\/mappanre_tassi.png",
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-31T02:23:50.000000Z"
+    },
+    {
+        "id": 81,
+        "province_id": 27,
+        "name": "Ma'nene",
+        "description": "Upacara membersihkan jenazah leluhur Toraja",
+        "image": "\/images\/tradisi\/manene.png",
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-31T02:23:50.000000Z"
+    },
+    {
+        "id": 82,
+        "province_id": 27,
+        "name": "Rambu Solo",
+        "description": "Upacara kematian Toraja yang megah dan meriah",
+        "image": "\/images\/tradisi\/rambu_solo.png",
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-31T02:23:50.000000Z"
+    },
+    {
+        "id": 83,
+        "province_id": 28,
+        "name": "Tari Lulo",
+        "description": "Tarian pergaulan suku Tolaki",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 84,
+        "province_id": 28,
+        "name": "Kabhanti",
+        "description": "Seni berbalas pantun suku Muna",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 85,
+        "province_id": 28,
+        "name": "Haroa",
+        "description": "Upacara syukuran panen suku Tolaki",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 86,
+        "province_id": 29,
+        "name": "Tari Saronde",
+        "description": "Tarian tradisional Gorontalo",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 87,
+        "province_id": 29,
+        "name": "Upacara Tumbilotohe",
+        "description": "Upacara adat penobatan raja",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 88,
+        "province_id": 29,
+        "name": "Dhikiri",
+        "description": "Seni musik bernafaskan Islam",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 89,
+        "province_id": 30,
+        "name": "Tari Patuddu",
+        "description": "Tarian perang suku Mandar",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 90,
+        "province_id": 30,
+        "name": "Sayyang Pattuqduq",
+        "description": "Atraksi kuda menari khas Mandar",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 91,
+        "province_id": 30,
+        "name": "Upacara Maccera Tasi",
+        "description": "Ritual nelayan Mandar",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 92,
+        "province_id": 31,
+        "name": "Tari Cakalele",
+        "description": "Tarian perang khas Maluku",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 93,
+        "province_id": 31,
+        "name": "Pukul Sapu",
+        "description": "Tradisi adu kekuatan dengan sapu lidi",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 94,
+        "province_id": 31,
+        "name": "Pela Gandong",
+        "description": "Sistem persaudaraan antar negeri",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 95,
+        "province_id": 32,
+        "name": "Tari Soya-Soya",
+        "description": "Tarian tradisional Ternate",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 96,
+        "province_id": 32,
+        "name": "Kora-Kora",
+        "description": "Tradisi lomba perahu perang",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 97,
+        "province_id": 32,
+        "name": "Bambu Gila",
+        "description": "Permainan tradisional dengan bambu",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 98,
+        "province_id": 33,
+        "name": "Tari Yospan",
+        "description": "Tarian pergaulan muda-mudi Papua",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 99,
+        "province_id": 33,
+        "name": "Bakar Batu",
+        "description": "Tradisi memasak dengan batu panas",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 102,
+        "province_id": 34,
+        "name": "Ararem",
+        "description": "Upacara adat suku Biak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 103,
+        "province_id": 34,
+        "name": "Wor",
+        "description": "Tarian kepemilikan tanah Biak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 104,
+        "province_id": 35,
+        "name": "Tari Gatsi",
+        "description": "Tarian selamat datang suku Asmat",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 105,
+        "province_id": 35,
+        "name": "Ukiran Asmat",
+        "description": "Tradisi ukir kayu khas Asmat",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 106,
+        "province_id": 35,
+        "name": "Sago Grub",
+        "description": "Tradisi memanen sagu",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 107,
+        "province_id": 36,
+        "name": "Tari Panah",
+        "description": "Tarian dengan busur panah",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 108,
+        "province_id": 36,
+        "name": "Upacara Bakar Batu",
+        "description": "Pesta adat suku Mee",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 109,
+        "province_id": 36,
+        "name": "Noken",
+        "description": "Tradisi membuat tas khas Papua",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 110,
+        "province_id": 37,
+        "name": "Tari Perang Suku",
+        "description": "Tarian perang antar suku",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 111,
+        "province_id": 37,
+        "name": "Koteka",
+        "description": "Pakaian adat pria Papua pegunungan",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 112,
+        "province_id": 37,
+        "name": "Upacara Pig Feast",
+        "description": "Pesta babi sebagai simbol kekayaan",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 113,
+        "province_id": 38,
+        "name": "Tari Topeng",
+        "description": "Tarian dengan topeng suku Kanum",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 114,
+        "province_id": 38,
+        "name": "Ritual Sasi",
+        "description": "Larangan mengambil hasil laut\/hutan",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    },
+    {
+        "id": 115,
+        "province_id": 38,
+        "name": "Tari Bambu Gila",
+        "description": "Permainan dengan bambu yang bergerak",
+        "image": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z"
+    }
+]

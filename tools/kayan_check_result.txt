@@ -1,0 +1,9 @@
+=== CHECKING TAMAN NASIONAL KAYAN MENTARANG ===
+
+✓ Found 1 wisata(s) matching 'Kayan' or 'Mentarang':
+  - ID: 71
+    Name: Taman Nasional Kayan Mentarang
+    Province: Kalimantan Utara
+    Image: images/wisata/Taman Nasional Kayan Mentarang.webp
+
+Total wisata in database: 147

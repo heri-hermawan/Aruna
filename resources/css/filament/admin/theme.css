@@ -1,0 +1,160 @@
+/* Custom Colorful Styling for Wisata Nusantara */
+
+/* Gradient Background for Stats Cards */
+.fi-wi-stats-overview-stat {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border: none !important;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.fi-wi-stats-overview-stat:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Different colors for each stat card */
+.fi-wi-stats-overview-stat:nth-child(1) {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.fi-wi-stats-overview-stat:nth-child(2) {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+}
+
+.fi-wi-stats-overview-stat:nth-child(3) {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+.fi-wi-stats-overview-stat:nth-child(4) {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%) !important;
+}
+
+.fi-wi-stats-overview-stat:nth-child(5) {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%) !important;
+}
+
+.fi-wi-stats-overview-stat:nth-child(6) {
+    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%) !important;
+}
+
+/* Make stat text white for better contrast */
+.fi-wi-stats-overview-stat .fi-wi-stats-overview-stat-value,
+.fi-wi-stats-overview-stat .fi-wi-stats-overview-stat-label,
+.fi-wi-stats-overview-stat .fi-wi-stats-overview-stat-description {
+    color: white !important;
+}
+
+/* Colorful top navigation bar */
+.fi-topbar {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%) !important;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3) !important;
+}
+
+/* Make brand name more prominent */
+.fi-topbar .fi-topbar-brand-text {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    background: linear-gradient(90deg, #fff 0%, #ffd700 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 2px 10px rgba(255, 215, 0, 0.5) !important;
+}
+
+/* Colorful buttons */
+.fi-btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+}
+
+.fi-btn-primary:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+    transform: scale(1.05) !important;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Animated gradient for tables */
+.fi-ta {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+/* Colorful table headers */
+.fi-ta-header {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.fi-ta-header-cell {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+/* Hover effect on table rows */
+.fi-ta-row:hover {
+    background: linear-gradient(90deg, rgba(102, 126, 234, 0.1) 0%, rgba(240, 147, 251, 0.1) 100%) !important;
+    transform: scale(1.01) !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Colorful badges */
+.fi-badge {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%) !important;
+    color: white !important;
+    font-weight: bold !important;
+    box-shadow: 0 4px 10px rgba(67, 233, 123, 0.3) !important;
+}
+
+/* Add pulse animation to important elements */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.fi-topbar-brand {
+    animation: pulse 3s ease-in-out infinite !important;
+}
+
+/* Glass morphism effect for cards */
+.fi-section {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Dark mode adjustments */
+.dark .fi-section {
+    background: rgba(30, 30, 30, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Colorful focus states */
+input:focus, textarea:focus, select:focus {
+    border-color: #667eea !important;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2) !important;
+}
+
+/* Rainbow underline for headings */
+.fi-header-heading {
+    position: relative !important;
+    padding-bottom: 10px !important;
+}
+
+.fi-header-heading::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 60px !important;
+    height: 4px !important;
+    background: linear-gradient(90deg, #667eea, #764ba2, #f093fb, #43e97b) !important;
+    border-radius: 2px !important;
+}

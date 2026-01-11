@@ -1,0 +1,7 @@
+=== CHECKING DANAU TONDANO ===
+
+✓ Found 1 wisata(s) matching 'Tondano':
+  - ID: 74
+    Name: Danau Tondano
+    Province: Sulawesi Utara
+    Image: NULL

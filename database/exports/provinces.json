@@ -1,0 +1,290 @@
+[
+    {
+        "id": 3,
+        "name": "Sumatera Barat",
+        "code": "SB",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sumatera_barat_1766978043634.png"
+    },
+    {
+        "id": 4,
+        "name": "Riau",
+        "code": "RI",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png"
+    },
+    {
+        "id": 5,
+        "name": "Jambi",
+        "code": "JA",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png"
+    },
+    {
+        "id": 6,
+        "name": "Sumatera Selatan",
+        "code": "SS",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png"
+    },
+    {
+        "id": 7,
+        "name": "Bengkulu",
+        "code": "BE",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/bengkulu.png"
+    },
+    {
+        "id": 8,
+        "name": "Lampung",
+        "code": "LA",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png"
+    },
+    {
+        "id": 9,
+        "name": "Kepulauan Bangka Belitung",
+        "code": "BB",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png"
+    },
+    {
+        "id": 10,
+        "name": "Kepulauan Riau",
+        "code": "KR",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png"
+    },
+    {
+        "id": 11,
+        "name": "DKI Jakarta",
+        "code": "JK",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png"
+    },
+    {
+        "id": 12,
+        "name": "Jawa Barat",
+        "code": "JB",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png"
+    },
+    {
+        "id": 13,
+        "name": "Jawa Tengah",
+        "code": "JT",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png"
+    },
+    {
+        "id": 14,
+        "name": "DI Yogyakarta",
+        "code": "YO",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png"
+    },
+    {
+        "id": 15,
+        "name": "Jawa Timur",
+        "code": "JI",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png"
+    },
+    {
+        "id": 16,
+        "name": "Banten",
+        "code": "BT",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/banten.png"
+    },
+    {
+        "id": 17,
+        "name": "Bali",
+        "code": "BA",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/bali.png"
+    },
+    {
+        "id": 18,
+        "name": "Nusa Tenggara Barat",
+        "code": "NB",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png"
+    },
+    {
+        "id": 19,
+        "name": "Nusa Tenggara Timur",
+        "code": "NT",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png"
+    },
+    {
+        "id": 20,
+        "name": "Kalimantan Barat",
+        "code": "KB",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png"
+    },
+    {
+        "id": 21,
+        "name": "Kalimantan Tengah",
+        "code": "KT",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png"
+    },
+    {
+        "id": 22,
+        "name": "Kalimantan Selatan",
+        "code": "KS",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png"
+    },
+    {
+        "id": 23,
+        "name": "Kalimantan Timur",
+        "code": "KI",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png"
+    },
+    {
+        "id": 24,
+        "name": "Kalimantan Utara",
+        "code": "KU",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png"
+    },
+    {
+        "id": 25,
+        "name": "Sulawesi Utara",
+        "code": "SA",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 26,
+        "name": "Sulawesi Tengah",
+        "code": "ST",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 27,
+        "name": "Sulawesi Selatan",
+        "code": "SN",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 28,
+        "name": "Sulawesi Tenggara",
+        "code": "SG",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 29,
+        "name": "Gorontalo",
+        "code": "GO",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png"
+    },
+    {
+        "id": 30,
+        "name": "Sulawesi Barat",
+        "code": "SR",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 31,
+        "name": "Maluku",
+        "code": "MA",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png"
+    },
+    {
+        "id": 32,
+        "name": "Maluku Utara",
+        "code": "MU",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png"
+    },
+    {
+        "id": 33,
+        "name": "Papua",
+        "code": "PA",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 34,
+        "name": "Papua Barat",
+        "code": "PB",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/papua_barat_1767024776165.png"
+    },
+    {
+        "id": 35,
+        "name": "Papua Selatan",
+        "code": "PS",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 36,
+        "name": "Papua Tengah",
+        "code": "PT",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 37,
+        "name": "Papua Pegunungan",
+        "code": "PP",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 38,
+        "name": "Papua Barat Daya",
+        "code": "PD",
+        "created_at": "2025-12-25T14:52:04.000000Z",
+        "updated_at": "2025-12-25T14:52:04.000000Z",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png"
+    }
+]

@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Custom CSS */
+* {
+    scroll-behavior: smooth;
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.pagination a,
+.pagination span {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s;
+}
+
+.pagination a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.pagination .active span {
+    background: linear-gradient(to right, rgb(99, 102, 241), rgb(168, 85, 247));
+    color: white;
+    border-color: transparent;
+}
+
+.pagination .disabled span {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

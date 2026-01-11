@@ -1,0 +1,122 @@
+[
+    {
+        "id": 89,
+        "name": "Danau Rano",
+        "province": "Sulawesi Tengah",
+        "file": "Danau Rano.jpg"
+    },
+    {
+        "id": 92,
+        "name": "Pantai Natsepa",
+        "province": "Maluku",
+        "file": "Pantai Natsepa.jpeg"
+    },
+    {
+        "id": 93,
+        "name": "Benteng Victoria",
+        "province": "Maluku",
+        "file": "Benteng Victoria.jpg"
+    },
+    {
+        "id": 94,
+        "name": "Pulau Ternate",
+        "province": "Maluku Utara",
+        "file": "Pulau Ternate.jpg"
+    },
+    {
+        "id": 95,
+        "name": "Danau Tolire",
+        "province": "Maluku Utara",
+        "file": "Danau Tolire.jpeg"
+    },
+    {
+        "id": 96,
+        "name": "Pulau Halmahera",
+        "province": "Maluku Utara",
+        "file": "Pulau Halmahera.jpeg"
+    },
+    {
+        "id": 100,
+        "name": "Teluk Cenderawasih",
+        "province": "Papua Barat",
+        "file": "Teluk Cenderawasih.webp"
+    },
+    {
+        "id": 101,
+        "name": "Pulau Misool",
+        "province": "Papua Barat",
+        "file": "Pulau Misool.jpeg"
+    },
+    {
+        "id": 102,
+        "name": "Arborek Island",
+        "province": "Papua Barat",
+        "file": "Arborek Island.webp"
+    },
+    {
+        "id": 103,
+        "name": "Taman Nasional Lorentz",
+        "province": "Papua Selatan",
+        "file": "Taman Nasional Lorentz.jpg"
+    },
+    {
+        "id": 104,
+        "name": "Pantai Lampu Satu",
+        "province": "Papua Selatan",
+        "file": "Pantai Lampu Satu.jpg"
+    },
+    {
+        "id": 105,
+        "name": "Museum Asmat",
+        "province": "Papua Selatan",
+        "file": "Museum Asmat.jpg"
+    },
+    {
+        "id": 106,
+        "name": "Puncak Jaya",
+        "province": "Papua Tengah",
+        "file": "Puncak Jaya.jpeg"
+    },
+    {
+        "id": 107,
+        "name": "Danau Habbema",
+        "province": "Papua Tengah",
+        "file": "Danau Habbema.jpg"
+    },
+    {
+        "id": 108,
+        "name": "Lembah Dani",
+        "province": "Papua Tengah",
+        "file": "Lembah Dani.webp"
+    },
+    {
+        "id": 109,
+        "name": "Gunung Mandala",
+        "province": "Papua Pegunungan",
+        "file": "Gunung Mandala.jpg"
+    },
+    {
+        "id": 110,
+        "name": "Lembah Yali",
+        "province": "Papua Pegunungan",
+        "file": "Lembah Yali.jpg"
+    },
+    {
+        "id": 111,
+        "name": "Danau Pegunungan",
+        "province": "Papua Pegunungan",
+        "file": "Danau Pegunungan.jpg"
+    },
+    {
+        "id": 112,
+        "name": "Pulau Kokas",
+        "province": "Papua Barat Daya",
+        "file": "Pulau Kokas.jpg"
+    },
+    {
+        "id": 114,
+        "name": "Pantai Venu",
+        "province": "Papua Barat Daya",
+        "file": "Pantai Venu.jpg"
+    }
+]

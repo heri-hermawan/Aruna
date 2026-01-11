@@ -1,0 +1,1062 @@
+[
+    {
+        "id": 7,
+        "province_id": 3,
+        "name": "Perda Sumbar No. 7 Tahun 2018",
+        "description": "Tentang Pelestarian dan Pengembangan Nagari",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sumatera_barat_1766978043634.png"
+    },
+    {
+        "id": 8,
+        "province_id": 3,
+        "name": "Perda Sumbar No. 6 Tahun 2020",
+        "description": "Tentang Penyelenggaraan Pendidikan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sumatera_barat_1766978043634.png"
+    },
+    {
+        "id": 9,
+        "province_id": 3,
+        "name": "Perda Sumbar No. 9 Tahun 2019",
+        "description": "Tentang Pelestarian Adat Basandi Syara', Syara' Basandi Kitabullah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sumatera_barat_1766978043634.png"
+    },
+    {
+        "id": 10,
+        "province_id": 4,
+        "name": "Perda Riau No. 1 Tahun 2019",
+        "description": "Tentang Rencana Pembangunan Jangka Menengah Daerah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png"
+    },
+    {
+        "id": 11,
+        "province_id": 4,
+        "name": "Perda Riau No. 10 Tahun 2020",
+        "description": "Tentang Pengelolaan Lingkungan Hidup",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png"
+    },
+    {
+        "id": 12,
+        "province_id": 4,
+        "name": "Perda Riau No. 6 Tahun 2018",
+        "description": "Tentang Penyelenggaraan Kepemudaan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png"
+    },
+    {
+        "id": 13,
+        "province_id": 5,
+        "name": "Perda Jambi No. 7 Tahun 2020",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png"
+    },
+    {
+        "id": 14,
+        "province_id": 5,
+        "name": "Perda Jambi No. 3 Tahun 2021",
+        "description": "Tentang Pengelolaan Hutan Lindung",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png"
+    },
+    {
+        "id": 15,
+        "province_id": 5,
+        "name": "Perda Jambi No. 5 Tahun 2019",
+        "description": "Tentang Penyelenggaraan Pariwisata",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png"
+    },
+    {
+        "id": 16,
+        "province_id": 6,
+        "name": "Perda Sumsel No. 14 Tahun 2020",
+        "description": "Tentang Rencana Induk Pariwisata Daerah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png"
+    },
+    {
+        "id": 17,
+        "province_id": 6,
+        "name": "Perda Sumsel No. 8 Tahun 2019",
+        "description": "Tentang Pengelolaan Sungai Musi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png"
+    },
+    {
+        "id": 18,
+        "province_id": 6,
+        "name": "Perda Sumsel No. 11 Tahun 2021",
+        "description": "Tentang Perlindungan Lahan Pertanian Pangan Berkelanjutan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png"
+    },
+    {
+        "id": 19,
+        "province_id": 7,
+        "name": "Perda Bengkulu No. 5 Tahun 2019",
+        "description": "Tentang Penyelenggaraan Kesehatan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bengkulu.png"
+    },
+    {
+        "id": 20,
+        "province_id": 7,
+        "name": "Perda Bengkulu No. 7 Tahun 2020",
+        "description": "Tentang Kawasan Tanpa Rokok",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bengkulu.png"
+    },
+    {
+        "id": 21,
+        "province_id": 7,
+        "name": "Perda Bengkulu No. 3 Tahun 2021",
+        "description": "Tentang Pengelolaan Pasar Rakyat",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bengkulu.png"
+    },
+    {
+        "id": 22,
+        "province_id": 8,
+        "name": "Perda Lampung No. 1 Tahun 2020",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png"
+    },
+    {
+        "id": 23,
+        "province_id": 8,
+        "name": "Perda Lampung No. 9 Tahun 2019",
+        "description": "Tentang Penyelenggaraan Pendidikan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png"
+    },
+    {
+        "id": 24,
+        "province_id": 8,
+        "name": "Perda Lampung No. 5 Tahun 2018",
+        "description": "Tentang Pelestarian Kebudayaan Lampung",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png"
+    },
+    {
+        "id": 25,
+        "province_id": 9,
+        "name": "Perda Babel No. 6 Tahun 2020",
+        "description": "Tentang Pengelolaan Pertambangan Timah Berkelanjutan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png"
+    },
+    {
+        "id": 26,
+        "province_id": 9,
+        "name": "Perda Babel No. 8 Tahun 2019",
+        "description": "Tentang Konservasi Laut",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png"
+    },
+    {
+        "id": 27,
+        "province_id": 9,
+        "name": "Perda Babel No. 4 Tahun 2021",
+        "description": "Tentang Penyelenggaraan Pariwisata Berkelanjutan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png"
+    },
+    {
+        "id": 28,
+        "province_id": 10,
+        "name": "Perda Kepri No. 2 Tahun 2020",
+        "description": "Tentang Pengelolaan Kawasan Ekonomi Khusus",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png"
+    },
+    {
+        "id": 29,
+        "province_id": 10,
+        "name": "Perda Kepri No. 7 Tahun 2019",
+        "description": "Tentang Pelestarian Budaya Melayu",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png"
+    },
+    {
+        "id": 30,
+        "province_id": 10,
+        "name": "Perda Kepri No. 5 Tahun 2018",
+        "description": "Tentang Penyelenggaraan Perdagangan Bebas",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png"
+    },
+    {
+        "id": 31,
+        "province_id": 11,
+        "name": "Perda DKI No. 3 Tahun 2020",
+        "description": "Tentang Penanggulangan dan Peningkatan Kualitas Terhadap Penyandang Masalah Kesejahteraan Sosial",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png"
+    },
+    {
+        "id": 32,
+        "province_id": 11,
+        "name": "Perda DKI No. 8 Tahun 2019",
+        "description": "Tentang Pengelolaan Sampah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png"
+    },
+    {
+        "id": 33,
+        "province_id": 11,
+        "name": "Perda DKI No. 1 Tahun 2021",
+        "description": "Tentang Penyelenggaraan Transportasi Umum",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png"
+    },
+    {
+        "id": 34,
+        "province_id": 12,
+        "name": "Perda Jabar No. 2 Tahun 2020",
+        "description": "Tentang Penyelenggaraan Sistem Pemerintahan Berbasis Elektronik",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png"
+    },
+    {
+        "id": 35,
+        "province_id": 12,
+        "name": "Perda Jabar No. 22 Tahun 2010",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png"
+    },
+    {
+        "id": 36,
+        "province_id": 12,
+        "name": "Perda Jabar No. 9 Tahun 2020",
+        "description": "Tentang Pelestarian dan Pengembangan Bahasa Sunda",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png"
+    },
+    {
+        "id": 37,
+        "province_id": 13,
+        "name": "Perda Jateng No. 5 Tahun 2019",
+        "description": "Tentang Pengelolaan Kualitas Air dan Pengendalian Pencemaran Air",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png"
+    },
+    {
+        "id": 38,
+        "province_id": 13,
+        "name": "Perda Jateng No. 10 Tahun 2020",
+        "description": "Tentang Rencana Induk Pariwisata Daerah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png"
+    },
+    {
+        "id": 39,
+        "province_id": 13,
+        "name": "Perda Jateng No. 1 Tahun 2021",
+        "description": "Tentang Pelestarian Kebudayaan Jawa",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png"
+    },
+    {
+        "id": 40,
+        "province_id": 14,
+        "name": "Perda DIY No. 5 Tahun 2019",
+        "description": "Tentang Pemeliharaan dan Pengembangan Kebudayaan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png"
+    },
+    {
+        "id": 41,
+        "province_id": 14,
+        "name": "Perda DIY No. 1 Tahun 2020",
+        "description": "Tentang Penyelenggaraan Keistimewaan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png"
+    },
+    {
+        "id": 42,
+        "province_id": 14,
+        "name": "Perda DIY No. 6 Tahun 2018",
+        "description": "Tentang Pengelolaan Kawasan Cagar Budaya",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png"
+    },
+    {
+        "id": 43,
+        "province_id": 15,
+        "name": "Perda Jatim No. 6 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png"
+    },
+    {
+        "id": 44,
+        "province_id": 15,
+        "name": "Perda Jatim No. 3 Tahun 2020",
+        "description": "Tentang Penyelenggaraan Industri",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png"
+    },
+    {
+        "id": 45,
+        "province_id": 15,
+        "name": "Perda Jatim No. 9 Tahun 2021",
+        "description": "Tentang Perlindungan dan Pemberdayaan Petani",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png"
+    },
+    {
+        "id": 46,
+        "province_id": 16,
+        "name": "Perda Banten No. 7 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/banten.png"
+    },
+    {
+        "id": 47,
+        "province_id": 16,
+        "name": "Perda Banten No. 2 Tahun 2020",
+        "description": "Tentang Pengelolaan Kawasan Industri",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/banten.png"
+    },
+    {
+        "id": 48,
+        "province_id": 16,
+        "name": "Perda Banten No. 4 Tahun 2021",
+        "description": "Tentang Perlindungan Nelayan Tradisional",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/banten.png"
+    },
+    {
+        "id": 49,
+        "province_id": 17,
+        "name": "Perda Bali No. 4 Tahun 2019",
+        "description": "Tentang Desa Adat di Bali",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bali.png"
+    },
+    {
+        "id": 50,
+        "province_id": 17,
+        "name": "Perda Bali No. 7 Tahun 2020",
+        "description": "Tentang Pengelolaan Sampah Plastik",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bali.png"
+    },
+    {
+        "id": 51,
+        "province_id": 17,
+        "name": "Perda Bali No. 2 Tahun 2021",
+        "description": "Tentang Kualitas Pariwisata Budaya",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/bali.png"
+    },
+    {
+        "id": 52,
+        "province_id": 18,
+        "name": "Perda NTB No. 7 Tahun 2020",
+        "description": "Tentang Pengelolaan Pariwisata Halal",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png"
+    },
+    {
+        "id": 53,
+        "province_id": 18,
+        "name": "Perda NTB No. 3 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png"
+    },
+    {
+        "id": 54,
+        "province_id": 18,
+        "name": "Perda NTB No. 5 Tahun 2021",
+        "description": "Tentang Pelestarian Kebudayaan Sasak",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png"
+    },
+    {
+        "id": 55,
+        "province_id": 19,
+        "name": "Perda NTT No. 1 Tahun 2020",
+        "description": "Tentang Perlindungan Taman Nasional Komodo",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png"
+    },
+    {
+        "id": 56,
+        "province_id": 19,
+        "name": "Perda NTT No. 8 Tahun 2019",
+        "description": "Tentang Penyelenggaraan Kepariwisataan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png"
+    },
+    {
+        "id": 57,
+        "province_id": 19,
+        "name": "Perda NTT No. 4 Tahun 2021",
+        "description": "Tentang Konservasi Tenun Tradisional",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png"
+    },
+    {
+        "id": 58,
+        "province_id": 20,
+        "name": "Perda Kalbar No. 1 Tahun 2020",
+        "description": "Tentang Perlindungan Hutan Adat Dayak",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png"
+    },
+    {
+        "id": 59,
+        "province_id": 20,
+        "name": "Perda Kalbar No. 6 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png"
+    },
+    {
+        "id": 60,
+        "province_id": 20,
+        "name": "Perda Kalbar No. 3 Tahun 2021",
+        "description": "Tentang Pengelolaan Sungai Kapuas",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png"
+    },
+    {
+        "id": 61,
+        "province_id": 21,
+        "name": "Perda Kalteng No. 5 Tahun 2020",
+        "description": "Tentang Perlindungan Orangutan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png"
+    },
+    {
+        "id": 62,
+        "province_id": 21,
+        "name": "Perda Kalteng No. 2 Tahun 2019",
+        "description": "Tentang Pelestarian Budaya Dayak",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png"
+    },
+    {
+        "id": 63,
+        "province_id": 21,
+        "name": "Perda Kalteng No. 7 Tahun 2021",
+        "description": "Tentang Pengelolaan Lahan Gambut",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png"
+    },
+    {
+        "id": 64,
+        "province_id": 22,
+        "name": "Perda Kalsel No. 9 Tahun 2020",
+        "description": "Tentang Pengelolaan Pasar Terapung",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png"
+    },
+    {
+        "id": 65,
+        "province_id": 22,
+        "name": "Perda Kalsel No. 3 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png"
+    },
+    {
+        "id": 66,
+        "province_id": 22,
+        "name": "Perda Kalsel No. 5 Tahun 2021",
+        "description": "Tentang Pengembangan Industri Batu Permata",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png"
+    },
+    {
+        "id": 67,
+        "province_id": 23,
+        "name": "Perda Kaltim No. 1 Tahun 2020",
+        "description": "Tentang Perlindungan Kawasan Konservasi Laut",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png"
+    },
+    {
+        "id": 68,
+        "province_id": 23,
+        "name": "Perda Kaltim No. 7 Tahun 2019",
+        "description": "Tentang Rencana Zonasi Wilayah Pesisir",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png"
+    },
+    {
+        "id": 69,
+        "province_id": 23,
+        "name": "Perda Kaltim No. 4 Tahun 2021",
+        "description": "Tentang Penyelenggaraan Pertambangan Berkelanjutan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png"
+    },
+    {
+        "id": 70,
+        "province_id": 24,
+        "name": "Perda Kaltara No. 2 Tahun 2020",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png"
+    },
+    {
+        "id": 71,
+        "province_id": 24,
+        "name": "Perda Kaltara No. 5 Tahun 2019",
+        "description": "Tentang Perlindungan Hutan Lindung",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png"
+    },
+    {
+        "id": 72,
+        "province_id": 24,
+        "name": "Perda Kaltara No. 3 Tahun 2021",
+        "description": "Tentang Pengelolaan Perbatasan Negara",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png"
+    },
+    {
+        "id": 73,
+        "province_id": 25,
+        "name": "Perda Sulut No. 6 Tahun 2020",
+        "description": "Tentang Perlindungan Taman Laut Bunaken",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 74,
+        "province_id": 25,
+        "name": "Perda Sulut No. 1 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 75,
+        "province_id": 25,
+        "name": "Perda Sulut No. 8 Tahun 2021",
+        "description": "Tentang Pelestarian Budaya Minahasa",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 76,
+        "province_id": 26,
+        "name": "Perda Sulteng No. 4 Tahun 2020",
+        "description": "Tentang Pengelolaan Taman Nasional Lore Lindu",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 77,
+        "province_id": 26,
+        "name": "Perda Sulteng No. 7 Tahun 2019",
+        "description": "Tentang Pelestarian Megalitikum",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 78,
+        "province_id": 26,
+        "name": "Perda Sulteng No. 2 Tahun 2021",
+        "description": "Tentang Mitigasi Bencana Gempa dan Tsunami",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 79,
+        "province_id": 27,
+        "name": "Perda Sulsel No. 2 Tahun 2020",
+        "description": "Tentang Perlindungan Rumah Adat Tongkonan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 80,
+        "province_id": 27,
+        "name": "Perda Sulsel No. 9 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 81,
+        "province_id": 27,
+        "name": "Perda Sulsel No. 6 Tahun 2021",
+        "description": "Tentang Pelestarian Budaya Bugis-Makassar",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 82,
+        "province_id": 28,
+        "name": "Perda Sultra No. 3 Tahun 2020",
+        "description": "Tentang Perlindungan Taman Nasional Wakatobi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 83,
+        "province_id": 28,
+        "name": "Perda Sultra No. 8 Tahun 2019",
+        "description": "Tentang Pengelolaan Sumber Daya Kelautan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 84,
+        "province_id": 28,
+        "name": "Perda Sultra No. 5 Tahun 2021",
+        "description": "Tentang Pengembangan Aspal Buton",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 85,
+        "province_id": 29,
+        "name": "Perda Gorontalo No. 7 Tahun 2020",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png"
+    },
+    {
+        "id": 86,
+        "province_id": 29,
+        "name": "Perda Gorontalo No. 3 Tahun 2019",
+        "description": "Tentang Pengelolaan Jagung sebagai Komoditas Utama",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png"
+    },
+    {
+        "id": 87,
+        "province_id": 29,
+        "name": "Perda Gorontalo No. 2 Tahun 2021",
+        "description": "Tentang Pelestarian Budaya Hulontalo",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png"
+    },
+    {
+        "id": 88,
+        "province_id": 30,
+        "name": "Perda Sulbar No. 5 Tahun 2020",
+        "description": "Tentang Rencana Tata Ruang Wilayah Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 89,
+        "province_id": 30,
+        "name": "Perda Sulbar No. 1 Tahun 2019",
+        "description": "Tentang Pelestarian Budaya Mandar",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 90,
+        "province_id": 30,
+        "name": "Perda Sulbar No. 4 Tahun 2021",
+        "description": "Tentang Pengembangan Sektor Perikanan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png"
+    },
+    {
+        "id": 91,
+        "province_id": 31,
+        "name": "Perda Maluku No. 6 Tahun 2020",
+        "description": "Tentang Perlindungan Kepulauan Banda",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png"
+    },
+    {
+        "id": 92,
+        "province_id": 31,
+        "name": "Perda Maluku No. 2 Tahun 2019",
+        "description": "Tentang Pelestarian Budaya Pela Gandong",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png"
+    },
+    {
+        "id": 93,
+        "province_id": 31,
+        "name": "Perda Maluku No. 8 Tahun 2021",
+        "description": "Tentang Pengelolaan Rempah-Rempah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png"
+    },
+    {
+        "id": 94,
+        "province_id": 32,
+        "name": "Perda Malut No. 4 Tahun 2020",
+        "description": "Tentang Pelestarian Kesultanan Ternate",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png"
+    },
+    {
+        "id": 95,
+        "province_id": 32,
+        "name": "Perda Malut No. 7 Tahun 2019",
+        "description": "Tentang Pengelolaan Jalur Rempah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png"
+    },
+    {
+        "id": 96,
+        "province_id": 32,
+        "name": "Perda Malut No. 3 Tahun 2021",
+        "description": "Tentang Perlindungan Hutan Pala",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png"
+    },
+    {
+        "id": 97,
+        "province_id": 33,
+        "name": "Perda Papua No. 23 Tahun 2020",
+        "description": "Tentang Perlindungan Hak Ulayat Masyarakat Adat",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 98,
+        "province_id": 33,
+        "name": "Perda Papua No. 15 Tahun 2019",
+        "description": "Tentang Rencana Tata Ruang Wilayah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 99,
+        "province_id": 33,
+        "name": "Perda Papua No. 21 Tahun 2021",
+        "description": "Tentang Pelestarian Budaya Papua",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 102,
+        "province_id": 34,
+        "name": "Perda Papua Barat No. 6 Tahun 2021",
+        "description": "Tentang Pengembangan Ekowisata",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_barat_1767024776165.png"
+    },
+    {
+        "id": 103,
+        "province_id": 35,
+        "name": "Perda Papua Selatan No. 1 Tahun 2023",
+        "description": "Tentang Penyelenggaraan Pemerintahan Daerah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 104,
+        "province_id": 35,
+        "name": "Perda Papua Selatan No. 2 Tahun 2023",
+        "description": "Tentang Perlindungan Hutan Sagu",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 105,
+        "province_id": 35,
+        "name": "Perda Papua Selatan No. 3 Tahun 2023",
+        "description": "Tentang Pelestarian Budaya Asmat",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 106,
+        "province_id": 36,
+        "name": "Perda Papua Tengah No. 1 Tahun 2023",
+        "description": "Tentang Penyelenggaraan Otonomi Daerah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 107,
+        "province_id": 36,
+        "name": "Perda Papua Tengah No. 2 Tahun 2023",
+        "description": "Tentang Perlindungan Puncak Jaya",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 108,
+        "province_id": 36,
+        "name": "Perda Papua Tengah No. 3 Tahun 2023",
+        "description": "Tentang Hak Ulayat Masyarakat Adat Pegunungan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 109,
+        "province_id": 37,
+        "name": "Perda Papua Pegunungan No. 1 Tahun 2023",
+        "description": "Tentang Pembentukan Pemerintahan Daerah",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 110,
+        "province_id": 37,
+        "name": "Perda Papua Pegunungan No. 2 Tahun 2023",
+        "description": "Tentang Pelestarian Budaya Suku Dani",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 111,
+        "province_id": 37,
+        "name": "Perda Papua Pegunungan No. 3 Tahun 2023",
+        "description": "Tentang Pengelolaan Lingkungan Hutan Pegunungan",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png"
+    },
+    {
+        "id": 112,
+        "province_id": 38,
+        "name": "Perda Papua Barat Daya No. 1 Tahun 2023",
+        "description": "Tentang Penyelenggaraan Pemerintahan Provinsi",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png"
+    },
+    {
+        "id": 113,
+        "province_id": 38,
+        "name": "Perda Papua Barat Daya No. 2 Tahun 2023",
+        "description": "Tentang Pengelolaan Kawasan Pesisir",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png"
+    },
+    {
+        "id": 114,
+        "province_id": 38,
+        "name": "Perda Papua Barat Daya No. 3 Tahun 2023",
+        "description": "Tentang Perlindungan Masyarakat Adat Kanum",
+        "document": null,
+        "created_at": "2025-12-25T14:52:05.000000Z",
+        "updated_at": "2025-12-25T14:52:05.000000Z",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png"
+    }
+]

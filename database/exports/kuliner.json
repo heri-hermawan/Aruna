@@ -1,0 +1,1112 @@
+[
+    {
+        "id": 7,
+        "province_id": 3,
+        "name": "Rendang",
+        "description": "Daging sapi bumbu rempah kental, makanan terenak di dunia",
+        "price": "50000.00",
+        "image": "\/images\/provinces\/sumatera_barat_1766978043634.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 8,
+        "province_id": 3,
+        "name": "Sate Padang",
+        "description": "Sate dengan kuah khas Padang yang kental",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/sumatera_barat_1766978043634.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 10,
+        "province_id": 4,
+        "name": "Gulai Belacan",
+        "description": "Ikan dengan kuah terasi khas Riau",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 11,
+        "province_id": 4,
+        "name": "Asam Pedas",
+        "description": "Ikan dengan kuah asam pedas yang segar",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 12,
+        "province_id": 4,
+        "name": "Bolu Kemojo",
+        "description": "Kue bolu khas Riau yang lembut",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/riau_province_1766978286701.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 13,
+        "province_id": 5,
+        "name": "Tempoyak",
+        "description": "Sambal dari durian yang difermentasi",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 14,
+        "province_id": 5,
+        "name": "Gulai Ikan Patin",
+        "description": "Ikan patin dengan kuah kuning khas Jambi",
+        "price": "45000.00",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 15,
+        "province_id": 5,
+        "name": "Kue Padamaran",
+        "description": "Kue tradisional berbentuk bunga",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/jambi_province_1767024469823.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 16,
+        "province_id": 6,
+        "name": "Pempek",
+        "description": "Olahan ikan tenggiri dengan cuko yang asam pedas",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 17,
+        "province_id": 6,
+        "name": "Tekwan",
+        "description": "Sup pempek dengan taburan daun bawang",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 18,
+        "province_id": 6,
+        "name": "Kemplang",
+        "description": "Kerupuk ikan kering yang renyah",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/sumatera_selatan_1766978264377.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 19,
+        "province_id": 7,
+        "name": "Pendap",
+        "description": "Ikan mas bumbu kuning dibungkus daun talas",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/bengkulu.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 20,
+        "province_id": 7,
+        "name": "Bagar Hiu",
+        "description": "Gulai ikan hiu khas Bengkulu",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/bengkulu.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 21,
+        "province_id": 7,
+        "name": "Lemang",
+        "description": "Ketan dimasak dalam bambu dengan santan",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/bengkulu.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 22,
+        "province_id": 8,
+        "name": "Seruit",
+        "description": "Ikan bakar dengan sambal terasi dan lalapan",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 23,
+        "province_id": 8,
+        "name": "Pindang Tulang",
+        "description": "Sup ikan patin dengan bumbu khas Lampung",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 24,
+        "province_id": 8,
+        "name": "Kemplang",
+        "description": "Kerupuk ikan khas Lampung",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/lampung_province_1766978305161.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 25,
+        "province_id": 9,
+        "name": "Mie Belitung",
+        "description": "Mie dengan tauco dan seafood segar",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 26,
+        "province_id": 9,
+        "name": "Lempah Kuning",
+        "description": "Ikan dengan kuah kuning bumbu rempah",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 27,
+        "province_id": 9,
+        "name": "Kue Berendam",
+        "description": "Kue basah khas Bangka yang kenyal",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 28,
+        "province_id": 10,
+        "name": "Gonggong",
+        "description": "Siput laut yang direbus, seafood khas Batam",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 29,
+        "province_id": 10,
+        "name": "Otak-Otak",
+        "description": "Adonan ikan dibungkus daun nipah lalu dibakar",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 30,
+        "province_id": 10,
+        "name": "Gong-Gong Sambal",
+        "description": "Gonggong dengan sambal pedas",
+        "price": "45000.00",
+        "image": "\/images\/provinces\/kepulauan_riau_1767024655481.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 31,
+        "province_id": 11,
+        "name": "Kerak Telor",
+        "description": "Omelet khas Betawi dengan kelapa sangrai",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 32,
+        "province_id": 11,
+        "name": "Soto Betawi",
+        "description": "Soto santan dengan daging sapi dan jeroan",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 33,
+        "province_id": 11,
+        "name": "Gado-Gado",
+        "description": "Sayur rebus dengan bumbu kacang",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/jakarta_province_1766978026224.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 34,
+        "province_id": 12,
+        "name": "Batagor",
+        "description": "Bakso tahu goreng dengan bumbu kacang",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 35,
+        "province_id": 12,
+        "name": "Nasi Timbel",
+        "description": "Nasi dibungkus daun pisang dengan lalapan",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 36,
+        "province_id": 12,
+        "name": "Peuyeum",
+        "description": "Singkong fermentasi khas Bandung",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/jawa_barat_1766978061566.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 37,
+        "province_id": 13,
+        "name": "Gudeg",
+        "description": "Nangka muda dimasak dengan santan dan gula Jawa",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 38,
+        "province_id": 13,
+        "name": "Lumpia Semarang",
+        "description": "Lumpia basah atau goreng khas Semarang",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 39,
+        "province_id": 13,
+        "name": "Wingko Babat",
+        "description": "Kue kelapa khas Semarang yang legit",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/jawa_tengah_1766978098907.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 40,
+        "province_id": 14,
+        "name": "Gudeg Yogya",
+        "description": "Gudeg khas Jogja yang manis dengan krecek",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 41,
+        "province_id": 14,
+        "name": "Bakpia Pathok",
+        "description": "Kue khas Jogja isi kacang hijau",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 42,
+        "province_id": 14,
+        "name": "Angkringan",
+        "description": "Nasi kucing dengan lauk sederhana",
+        "price": "10000.00",
+        "image": "\/images\/provinces\/yogyakarta_province_1766978008561.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 43,
+        "province_id": 15,
+        "name": "Rawon",
+        "description": "Sup daging dengan kluwek yang hitam pekat",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 44,
+        "province_id": 15,
+        "name": "Soto Lamongan",
+        "description": "Soto ayam khas Lamongan",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 45,
+        "province_id": 15,
+        "name": "Lontong Balap",
+        "description": "Lontong dengan tauge, lentho, dan kuah petis",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/jawa_timur_1766978123209.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 46,
+        "province_id": 16,
+        "name": "Sate Bandeng",
+        "description": "Ikan bandeng disuwir dan dibumbui lalu dibakar",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/banten.png",
+        "created_at": "2025-12-25T14:52:06.000000Z",
+        "updated_at": "2025-12-25T14:52:06.000000Z"
+    },
+    {
+        "id": 47,
+        "province_id": 16,
+        "name": "Emping Melinjo",
+        "description": "Kerupuk tipis dari biji melinjo",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/banten.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 48,
+        "province_id": 16,
+        "name": "Rabeg",
+        "description": "Gulai daging kambing khas Banten",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/banten.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 49,
+        "province_id": 17,
+        "name": "Babi Guling",
+        "description": "Babi utuh dipanggang dengan bumbu khas Bali",
+        "price": "50000.00",
+        "image": "\/images\/provinces\/bali.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 50,
+        "province_id": 17,
+        "name": "Bebek Betutu",
+        "description": "Bebek bumbu rica khas Bali yang pedas",
+        "price": "60000.00",
+        "image": "\/images\/provinces\/bali.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 51,
+        "province_id": 17,
+        "name": "Lawar",
+        "description": "Sayur campur dengan kelapa dan daging cincang",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/bali.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 52,
+        "province_id": 18,
+        "name": "Ayam Taliwang",
+        "description": "Ayam bakar pedas khas Lombok",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 53,
+        "province_id": 18,
+        "name": "Plecing Kangkung",
+        "description": "Kangkung rebus dengan sambal tomat pedas",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 54,
+        "province_id": 18,
+        "name": "Sate Bulayak",
+        "description": "Sate ayam dengan lontong dari bambu",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/nusa_tenggara_barat_1766978362370.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 55,
+        "province_id": 19,
+        "name": "Se'i Sapi",
+        "description": "Daging sapi diasap khas NTT",
+        "price": "60000.00",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 56,
+        "province_id": 19,
+        "name": "Jagung Bose",
+        "description": "Jagung rebus dengan kacang merah",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 57,
+        "province_id": 19,
+        "name": "Catemak Jagung",
+        "description": "Bubur jagung khas Rote",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/nusa_tenggara_timur_1767024728031.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 58,
+        "province_id": 20,
+        "name": "Bubur Pedas",
+        "description": "Bubur berbumbu rempah khas Sambas",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 59,
+        "province_id": 20,
+        "name": "Choi Pan",
+        "description": "Kue khas Pontianak isi sayur",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 60,
+        "province_id": 20,
+        "name": "Pengkang",
+        "description": "Ikan patin asam pedas khas Dayak",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/kalimantan_barat_1767024498078.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 61,
+        "province_id": 21,
+        "name": "Juhu Umbut Rotan",
+        "description": "Masakan umbut rotan khas Dayak",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 62,
+        "province_id": 21,
+        "name": "Wadi",
+        "description": "Ikan fermentasi khas Dayak",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 63,
+        "province_id": 21,
+        "name": "Kalumpe",
+        "description": "Kue tradisional dari kelapa",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/kalimantan_tengah_1767024551697.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 64,
+        "province_id": 22,
+        "name": "Soto Banjar",
+        "description": "Soto ayam dengan bumbu khas Banjar",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 65,
+        "province_id": 22,
+        "name": "Ketupat Kandangan",
+        "description": "Ketupat dengan kuah santan kental",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 66,
+        "province_id": 22,
+        "name": "Apam Barabai",
+        "description": "Kue apam khas Barabai yang lembut",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/kalimantan_selatan_1767024532916.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 67,
+        "province_id": 23,
+        "name": "Nasi Bekepor",
+        "description": "Nasi dengan lauk beraneka ragam ala Balik Papan",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 68,
+        "province_id": 23,
+        "name": "Sate Payau",
+        "description": "Sate rusa khas Kalimantan Timur",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 69,
+        "province_id": 23,
+        "name": "Gence Ruan",
+        "description": "Ikan mas asam manis khas Kutai",
+        "price": "45000.00",
+        "image": "\/images\/provinces\/kalimantan_timur_1767024574026.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 70,
+        "province_id": 24,
+        "name": "Kepiting Soka",
+        "description": "Kepiting lunak goreng tepung",
+        "price": "50000.00",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 71,
+        "province_id": 24,
+        "name": "Sambal Raja",
+        "description": "Sambal udang segar pedas",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 72,
+        "province_id": 24,
+        "name": "Nasi Kuning Khas Tarakan",
+        "description": "Nasi kuning dengan lauk lengkap",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/kalimantan_utara_1767024607295.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 73,
+        "province_id": 25,
+        "name": "Tinutuan",
+        "description": "Bubur Manado dengan sayuran beraneka ragam",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 74,
+        "province_id": 25,
+        "name": "Cakalang Fufu",
+        "description": "Ikan cakalang asap khas Manado",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 75,
+        "province_id": 25,
+        "name": "Rica-Rica",
+        "description": "Masakan dengan cabai rawit yang sangat pedas",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 76,
+        "province_id": 26,
+        "name": "Kaledo",
+        "description": "Sup tulang sapi khas Palu yang gurih",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 77,
+        "province_id": 26,
+        "name": "Uta Kelo",
+        "description": "Sayur keladi khas Kaili",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 78,
+        "province_id": 26,
+        "name": "Lalampa",
+        "description": "Ikan bakar dalam bambu",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 79,
+        "province_id": 27,
+        "name": "Coto Makassar",
+        "description": "Sup jeroan sapi dengan bumbu kacang",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 80,
+        "province_id": 27,
+        "name": "Pallubasa",
+        "description": "Sup daging sapi mirip coto tapi lebih kental",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 81,
+        "province_id": 27,
+        "name": "Pa'piong",
+        "description": "Daging dimasak dalam bambu khas Toraja",
+        "price": "50000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 82,
+        "province_id": 28,
+        "name": "Kasuami",
+        "description": "Sup ikan khas Buton yang segar",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 83,
+        "province_id": 28,
+        "name": "Luluta",
+        "description": "Nasi campur dengan lauk khas Tolaki",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 84,
+        "province_id": 28,
+        "name": "Sambal Dabu-Dabu",
+        "description": "Sambal mentah khas Sulawesi",
+        "price": "10000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 85,
+        "province_id": 29,
+        "name": "Binte Biluhuta",
+        "description": "Sup jagung dengan ikan tongkol",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 86,
+        "province_id": 29,
+        "name": "Ilabulo",
+        "description": "Kolak pisang khas Gorontalo",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 87,
+        "province_id": 29,
+        "name": "Milu Siram",
+        "description": "Bubur jagung manis",
+        "price": "10000.00",
+        "image": "\/images\/provinces\/gorontalo_province_1767024449225.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 88,
+        "province_id": 30,
+        "name": "Jepa",
+        "description": "Ikan bakar khas Mandar",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 89,
+        "province_id": 30,
+        "name": "Bau Piapi",
+        "description": "Ikan dengan bumbu kelapa sangrai",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 90,
+        "province_id": 30,
+        "name": "Apang",
+        "description": "Kue manis khas Mandar",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/sulawesi_utara_1766978342577.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 91,
+        "province_id": 31,
+        "name": "Papeda",
+        "description": "Bubur sagu khas Maluku yang kenyal",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 92,
+        "province_id": 31,
+        "name": "Ikan Kuah Pala",
+        "description": "Ikan dengan kuah bumbu pala Banda",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 93,
+        "province_id": 31,
+        "name": "Kolo-Kolo",
+        "description": "Tumis kangkung dengan bunga pepaya",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/maluku_province_1767024673139.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 94,
+        "province_id": 32,
+        "name": "Gohu Ikan",
+        "description": "Ikan mentah bumbu rica khas Ternate",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 95,
+        "province_id": 32,
+        "name": "Nasi Jaha",
+        "description": "Nasi dalam bambu dengan santan",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 96,
+        "province_id": 32,
+        "name": "Popeda",
+        "description": "Bubur sagu khas Maluku Utara",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/maluku_utara_1767024709056.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 97,
+        "province_id": 33,
+        "name": "Papeda",
+        "description": "Bubur sagu khas Papua yang lengket",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 98,
+        "province_id": 33,
+        "name": "Ikan Bakar Manokwari",
+        "description": "Ikan segar dibakar dengan bumbu sederhana",
+        "price": "50000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 99,
+        "province_id": 33,
+        "name": "Ulat Sagu",
+        "description": "Ulat sagu goreng crispy kaya protein",
+        "price": "30000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 100,
+        "province_id": 34,
+        "name": "Ikan Kuah Kuning",
+        "description": "Ikan dengan kuah kuning bumbu khas Papua",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/papua_barat_1767024776165.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 101,
+        "province_id": 34,
+        "name": "Sagu Lempeng",
+        "description": "Sagu tipis dibakar crispy",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/papua_barat_1767024776165.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 102,
+        "province_id": 34,
+        "name": "Ikan Bungkus",
+        "description": "Ikan dibungkus daun lalu dibakar",
+        "price": "35000.00",
+        "image": "\/images\/provinces\/papua_barat_1767024776165.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 103,
+        "province_id": 35,
+        "name": "Sagu Bakar",
+        "description": "Sagu dipanggang dengan ikan",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 104,
+        "province_id": 35,
+        "name": "Udang Selingkuh",
+        "description": "Udang besar khas Merauke",
+        "price": "80000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 105,
+        "province_id": 35,
+        "name": "Ikan Gabus Kuah",
+        "description": "Ikan gabus dengan kuah bumbu",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 106,
+        "province_id": 36,
+        "name": "Bakar Batu",
+        "description": "Menu lengkap dimasak dengan batu panas",
+        "price": "100000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 107,
+        "province_id": 36,
+        "name": "Hipere",
+        "description": "Umbi-umbian khas pegunungan",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 108,
+        "province_id": 36,
+        "name": "Ubi Bakar",
+        "description": "Ubi panggang sederhana tapi lezat",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 109,
+        "province_id": 37,
+        "name": "Sagu Tumbu",
+        "description": "Sagu dengan sayuran pegunungan",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 110,
+        "province_id": 37,
+        "name": "Babi Bakar Batu",
+        "description": "Babi dimasak dengan teknik bakar batu",
+        "price": "120000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 111,
+        "province_id": 37,
+        "name": "Keladi Bakar",
+        "description": "Keladi dipanggang dengan abu",
+        "price": "15000.00",
+        "image": "\/images\/provinces\/papua_province_1767024745712.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 112,
+        "province_id": 38,
+        "name": "Ikan Rica-Rica",
+        "description": "Ikan segar dengan sambal rica",
+        "price": "40000.00",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 113,
+        "province_id": 38,
+        "name": "Sagu Lempeng Isi",
+        "description": "Sagu lempeng dengan ikan asin",
+        "price": "20000.00",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 114,
+        "province_id": 38,
+        "name": "Kepiting Soka",
+        "description": "Kepiting goreng crispy",
+        "price": "60000.00",
+        "image": "\/images\/provinces\/papua_barat_daya_1767025351063.png",
+        "created_at": "2025-12-25T14:52:07.000000Z",
+        "updated_at": "2025-12-25T14:52:07.000000Z"
+    },
+    {
+        "id": 115,
+        "province_id": 9,
+        "name": "Nasi Goreng Test",
+        "description": "Nasi goreng enak untuk testing CRUD API",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png",
+        "created_at": "2025-12-29T02:14:39.000000Z",
+        "updated_at": "2025-12-29T02:14:39.000000Z"
+    },
+    {
+        "id": 116,
+        "province_id": 9,
+        "name": "Nasi Goreng Test",
+        "description": "Nasi goreng enak di makan malam malam",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png",
+        "created_at": "2025-12-29T02:15:37.000000Z",
+        "updated_at": "2025-12-29T02:15:37.000000Z"
+    },
+    {
+        "id": 117,
+        "province_id": 9,
+        "name": "Nasi Goreng Test",
+        "description": "Nasi goreng enak di makan malam malam",
+        "price": "25000.00",
+        "image": "\/images\/provinces\/bangka_belitung_1767024624817.png",
+        "created_at": "2025-12-29T15:18:24.000000Z",
+        "updated_at": "2025-12-29T15:18:24.000000Z"
+    },
+    {
+        "id": 120,
+        "province_id": 3,
+        "name": "Test Kuliner - 2025-12-29 16:39:15",
+        "description": "This is a test kuliner created by API tester",
+        "price": null,
+        "image": "\/images\/test.jpg",
+        "created_at": "2025-12-29T16:39:15.000000Z",
+        "updated_at": "2025-12-29T16:39:15.000000Z"
+    }
+]
