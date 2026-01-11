@@ -18,9 +18,9 @@ class KulinerResource extends Resource
 {
     protected static ?string $model = Kuliner::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlineCake;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedCake;
 
-    protected static ?string $navigationGroup = 'Konten';
+    protected static string|\UnitEnum|null $navigationGroup = 'Konten';
 
     protected static ?int $navigationSort = 40;
 
