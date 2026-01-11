@@ -18,9 +18,9 @@ class TradisiResource extends Resource
 {
     protected static ?string $model = Tradisi::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlineSparkles;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedSparkles;
 
-    protected static ?string $navigationGroup = 'Konten';
+    protected static string|\UnitEnum|null $navigationGroup = 'Konten';
 
     protected static ?int $navigationSort = 30;
 

@@ -18,9 +18,9 @@ class WisataResource extends Resource
 {
     protected static ?string $model = Wisata::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinePhoto;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedPhoto;
 
-    protected static ?string $navigationGroup = 'Konten';
+    protected static string|\UnitEnum|null $navigationGroup = 'Konten';
 
     protected static ?int $navigationSort = 20;
 

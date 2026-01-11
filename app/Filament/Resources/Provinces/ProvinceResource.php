@@ -18,9 +18,9 @@ class ProvinceResource extends Resource
 {
     protected static ?string $model = Province::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlineGlobeAlt;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedGlobeAlt;
 
-    protected static ?string $navigationGroup = 'Master Data';
+    protected static string|\UnitEnum|null $navigationGroup = 'Master Data';
 
     protected static ?int $navigationSort = 10;
 
