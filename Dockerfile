@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y \
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Install PHP extensions
-RUN install-php-extensions intl zip ctype curl dom fileinfo filter hash mbstring openssl pcre pdo session tokenizer xml
+# Install PHP extensions (IMPORTANT: tambahkan pdo_mysql)
+RUN install-php-extensions intl zip ctype curl dom fileinfo filter hash mbstring openssl pcre pdo pdo_mysql session tokenizer xml
 
 # Install Node.js
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
@@ -43,8 +43,30 @@ RUN npm run build
 RUN mkdir -p storage/framework/{sessions,views,cache,testing} storage/logs bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
 
+# Create entrypoint script
+COPY <<'EOF' /entrypoint.sh
+#!/bin/bash
+set -e
+
+echo "Waiting for database connection..."
+sleep 5
+
+echo "Running migrations..."
+php artisan migrate --force || echo "Migration failed, continuing..."
+
+echo "Clearing cache..."
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+
+echo "Starting server on port $PORT..."
+php artisan serve --host=0.0.0.0 --port=$PORT
+EOF
+
+RUN chmod +x /entrypoint.sh
+
 # Expose port
 EXPOSE 8000
 
 # Start application
-CMD php artisan serve --host=0.0.0.0 --port=$PORT
+ENTRYPOINT ["/entrypoint.sh"]
