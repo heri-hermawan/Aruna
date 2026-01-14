@@ -10,37 +10,109 @@ use App\Http\Controllers\Api\PeraturanController;
 use App\Http\Controllers\Api\ChatController;
 use App\Http\Controllers\Api\RecommendationController;
 
-// API Resource Routes (Full CRUD)
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| is assigned the "api" middleware group. Enjoy building your API!
+|
+*/
+
+// ============================================
+// DEFAULT USER ROUTE (Optional - bisa dihapus jika tidak dipakai)
+// ============================================
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
+
+// ============================================
+// API RESOURCE ROUTES (Full CRUD)
+// ============================================
 Route::apiResource('provinces', ProvinceController::class);
 Route::apiResource('tradisi', TradisiController::class);
 Route::apiResource('wisata', WisataController::class);
 Route::apiResource('kuliner', KulinerController::class);
 Route::apiResource('peraturan', PeraturanController::class);
 
-// Custom Province Category Routes
+// ============================================
+// CUSTOM PROVINCE CATEGORY ROUTES
+// ============================================
 Route::get('/provinces/{province}/tradisi', [ProvinceController::class, 'tradisi']);
 Route::get('/provinces/{province}/peraturan', [ProvinceController::class, 'peraturan']);
 Route::get('/provinces/{province}/wisata', [ProvinceController::class, 'wisata']);
 Route::get('/provinces/{province}/kuliner', [ProvinceController::class, 'kuliner']);
 
-// Category endpoints (all items)
+// ============================================
+// CATEGORY ENDPOINTS (All Items)
+// ============================================
 Route::get('/all-tradisi', [ProvinceController::class, 'allTradisi']);
 Route::get('/all-peraturan', [ProvinceController::class, 'allPeraturan']);
 Route::get('/all-wisata', [ProvinceController::class, 'allWisata']);
 Route::get('/all-kuliner', [ProvinceController::class, 'allKuliner']);
 
-// Recommendation endpoints (SAW Algorithm)
-Route::prefix('/recommendations')->group(function () {
-    Route::get('/kuliner', [RecommendationController::class, 'kuliner']);
-    Route::get('/kuliner/{provinceId}', [RecommendationController::class, 'kulinerByProvince']);
-    Route::get('/wisata', [RecommendationController::class, 'wisata']);
-    Route::get('/wisata/{provinceId}', [RecommendationController::class, 'wisataByProvince']);
-    Route::get('/top-kuliner', [RecommendationController::class, 'topKuliner']);
-    Route::get('/top-wisata', [RecommendationController::class, 'topWisata']);
-    Route::get('/random-kuliner', [RecommendationController::class, 'randomKuliner']);
-    Route::get('/random-wisata', [RecommendationController::class, 'randomWisata']);
-    Route::post('/recalculate', [RecommendationController::class, 'recalculateAll']);
+// ============================================
+// CHAT AI ENDPOINT (Support GET & POST)
+// ============================================
+Route::post('/chat', [ChatController::class, 'chat'])->name('api.chat');
+Route::get('/chat', function() {
+    return response()->json([
+        'success' => false,
+        'message' => 'Please use POST method to send chat messages',
+        'error' => 'GET method is not supported for this endpoint. Use POST with "message" parameter.',
+        'example' => [
+            'method' => 'POST',
+            'url' => url('/api/chat'),
+            'body' => [
+                'message' => 'Rekomendasikan wisata di Bali'
+            ]
+        ]
+    ], 405);
 });
 
-// Chat AI endpoint
-Route::post('/chat', [ChatController::class, 'chat']);
+// ============================================
+// RECOMMENDATION ROUTES (SAW Method)
+// ============================================
+Route::prefix('recommendations')->name('api.recommendations.')->group(function () {
+    
+    // ==========================================
+    // STATIC ROUTES (HARUS DI ATAS!)
+    // ==========================================
+    
+    // Top Recommendations
+    Route::get('top/kuliner', [RecommendationController::class, 'topKuliner'])->name('top.kuliner');
+    Route::get('top/wisata', [RecommendationController::class, 'topWisata'])->name('top.wisata');
+    
+    // Random Recommendations  
+    Route::get('random/wisata', [RecommendationController::class, 'randomWisata'])->name('random.wisata');
+    Route::get('random/kuliner', [RecommendationController::class, 'randomKuliner'])->name('random.kuliner');
+    
+    // Recalculate
+    Route::post('recalculate', [RecommendationController::class, 'recalculateAll'])->name('recalculate');
+    
+    // ==========================================
+    // QUERY STRING FILTER ROUTES
+    // ==========================================
+    
+    // Get recommendations with optional filter via query string
+    Route::get('kuliner', [RecommendationController::class, 'kuliner'])->name('kuliner');
+    Route::get('wisata', [RecommendationController::class, 'wisata'])->name('wisata');
+    
+    // ==========================================
+    // DYNAMIC PROVINCE ID ROUTES (HARUS DI BAWAH!)
+    // ==========================================
+    
+    // Get recommendations by specific province (with numeric constraint)
+    Route::get('kuliner/{province_id}', [RecommendationController::class, 'kulinerByProvince'])
+        ->where('province_id', '[0-9]+')
+        ->name('kuliner.province');
+        
+    Route::get('wisata/{province_id}', [RecommendationController::class, 'wisataByProvince'])
+        ->where('province_id', '[0-9]+')
+        ->name('wisata.province');
+});
+
+
+// jshdaudnakdmakd adadda
