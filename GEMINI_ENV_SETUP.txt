@@ -1,0 +1,14 @@
+PENTING: Tambahkan baris ini ke file .env Anda
+================================================
+
+Buka file: c:\laragon\www\projek 2\.env
+
+Tambahkan baris berikut (ganti API key yang lama):
+
+# Gemini API Configuration (Free Tier - 1500 requests/day)
+GEMINI_API_KEY=AIzaSyB7t7mXs4Nw6VlY8LyQLRTRDZaibDRojDI
+
+Catatan:
+- Anda bisa menghapus atau comment line HUGGING_FACE_API_KEY yang lama
+- API key ini sudah disediakan oleh user
+- Free tier: 1500 requests/hari, 60 requests/menit

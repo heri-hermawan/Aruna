@@ -74,7 +74,7 @@
         <p class="text-gray-400 text-lg">Temukan berbagai aspek kebudayaan Indonesia</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Tradisi Card -->
         <a href="{{ route('tradisi') }}" class="group relative bg-gradient-to-br from-indigo-500/10 to-purple-500/10 backdrop-blur-xl border border-white/10 rounded-2xl p-8 hover:scale-105 transition-all duration-300 overflow-hidden">
             <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -102,6 +102,16 @@
                 <div class="text-5xl mb-4">🍜</div>
                 <h3 class="text-2xl font-bold mb-2">Kuliner</h3>
                 <p class="text-gray-400 text-sm">Cita rasa khas Nusantara yang menggugah selera</p>
+            </div>
+        </a>
+
+        <!-- Rekomendasi Card -->
+        <a href="{{ route('rekomendasi') }}" class="group relative bg-gradient-to-br from-yellow-500/10 to-orange-500/10 backdrop-blur-xl border border-white/10 rounded-2xl p-8 hover:scale-105 transition-all duration-300 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div class="relative">
+                <div class="text-5xl mb-4">⭐</div>
+                <h3 class="text-2xl font-bold mb-2">Rekomendasi</h3>
+                <p class="text-gray-400 text-sm">Pilihan terbaik wisata dan kuliner se-Indonesia</p>
             </div>
         </a>
 

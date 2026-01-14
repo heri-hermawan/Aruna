@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
+use App\Http\Controllers\ChatController;
 
 Route::get('/', [WebController::class, 'home'])->name('home');
 Route::get('/provinces', [WebController::class, 'provinces'])->name('provinces');
@@ -11,5 +12,10 @@ Route::get('/tradisi', [WebController::class, 'tradisi'])->name('tradisi');
 Route::get('/peraturan', [WebController::class, 'peraturan'])->name('peraturan');
 Route::get('/wisata', [WebController::class, 'wisata'])->name('wisata');
 Route::get('/kuliner', [WebController::class, 'kuliner'])->name('kuliner');
+Route::get('/rekomendasi', [WebController::class, 'rekomendasi'])->name('rekomendasi');
 
 Route::get('/chat', [WebController::class, 'chat'])->name('chat');
+
+// Chatbot AI routes
+Route::get('/chatbot', [ChatController::class, 'index'])->name('chatbot.index');
+Route::post('/chatbot/send', [ChatController::class, 'sendMessage'])->name('chat.send');

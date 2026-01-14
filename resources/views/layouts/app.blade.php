@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Jelajah Nusantara') - Portal Provinsi Indonesia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,6 +50,9 @@
                     <a href="{{ route('kuliner') }}" class="px-4 py-2 rounded-lg hover:bg-white/10 transition-colors duration-200 {{ request()->routeIs('kuliner') ? 'bg-white/10 text-indigo-300' : 'text-gray-300' }}">
                         Kuliner
                     </a>
+                    <a href="{{ route('rekomendasi') }}" class="px-4 py-2 rounded-lg hover:bg-white/10 transition-colors duration-200 {{ request()->routeIs('rekomendasi') ? 'bg-white/10 text-indigo-300' : 'text-gray-300' }}">
+                        ⭐ Rekomendasi
+                    </a>
                     <a href="{{ route('peraturan') }}" class="px-4 py-2 rounded-lg hover:bg-white/10 transition-colors duration-200 {{ request()->routeIs('peraturan') ? 'bg-white/10 text-indigo-300' : 'text-gray-300' }}">
                         Peraturan
                     </a>
@@ -83,6 +87,9 @@
                 </a>
                 <a href="{{ route('kuliner') }}" class="block px-4 py-3 rounded-lg hover:bg-white/10 transition-colors {{ request()->routeIs('kuliner') ? 'bg-white/10 text-indigo-300' : 'text-gray-300' }}">
                     Kuliner
+                </a>
+                <a href="{{ route('rekomendasi') }}" class="block px-4 py-3 rounded-lg hover:bg-white/10 transition-colors {{ request()->routeIs('rekomendasi') ? 'bg-white/10 text-indigo-300' : 'text-gray-300' }}">
+                    ⭐ Rekomendasi
                 </a>
                 <a href="{{ route('peraturan') }}" class="block px-4 py-3 rounded-lg hover:bg-white/10 transition-colors {{ request()->routeIs('peraturan') ? 'bg-white/10 text-indigo-300' : 'text-gray-300' }}">
                     Peraturan
