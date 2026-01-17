@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\KulinerController;
 use App\Http\Controllers\Api\PeraturanController;
 use App\Http\Controllers\Api\ChatController;
 use App\Http\Controllers\Api\RecommendationController;
+use App\Http\Controllers\Api\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,10 +23,17 @@ use App\Http\Controllers\Api\RecommendationController;
 */
 
 // ============================================
-// DEFAULT USER ROUTE (Optional - bisa dihapus jika tidak dipakai)
+// PUBLIC AUTH ROUTES
 // ============================================
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
+
+// ============================================
+// PROTECTED AUTH ROUTES (Require Authentication)
+// ============================================
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/logout', [AuthController::class, 'logout']);
+    Route::get('/user', [AuthController::class, 'user']);
 });
 
 // ============================================
@@ -113,6 +121,3 @@ Route::prefix('recommendations')->name('api.recommendations.')->group(function (
         ->where('province_id', '[0-9]+')
         ->name('wisata.province');
 });
-
-
-// jshdaudnakdmakd adadda
