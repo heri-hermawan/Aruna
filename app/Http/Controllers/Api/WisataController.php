@@ -8,12 +8,27 @@ use Illuminate\Http\Request;
 
 class WisataController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $wisata = Wisata::with('province')
+        $query = Wisata::with('province')
             ->orderBy('created_at', 'desc')
-            ->orderBy('id', 'desc')
-            ->paginate(12);
+            ->orderBy('id', 'desc');
+        
+        // Cek apakah ada parameter 'all' untuk mengambil semua data
+        if ($request->has('all') && $request->get('all') == 'true') {
+            $wisata = $query->get();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Semua data wisata berhasil diambil',
+                'data' => $wisata,
+                'total' => $wisata->count()
+            ]);
+        }
+        
+        // Default: gunakan pagination
+        $perPage = $request->get('per_page', 12);
+        $wisata = $query->paginate($perPage);
         
         return response()->json($wisata);
     }
@@ -33,6 +48,7 @@ class WisataController extends Controller
         $wisata->load('province');
 
         return response()->json([
+            'success' => true,
             'message' => 'Wisata created successfully',
             'data' => $wisata
         ], 201);
@@ -42,7 +58,10 @@ class WisataController extends Controller
     {
         $wisata->load('province');
         
-        return response()->json($wisata);
+        return response()->json([
+            'success' => true,
+            'data' => $wisata
+        ]);
     }
 
     public function update(Request $request, Wisata $wisata)
@@ -60,6 +79,7 @@ class WisataController extends Controller
         $wisata->load('province');
 
         return response()->json([
+            'success' => true,
             'message' => 'Wisata updated successfully',
             'data' => $wisata
         ], 200);
@@ -70,6 +90,7 @@ class WisataController extends Controller
         $wisata->delete();
 
         return response()->json([
+            'success' => true,
             'message' => 'Wisata deleted successfully'
         ], 200);
     }

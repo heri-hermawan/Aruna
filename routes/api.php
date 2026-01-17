@@ -54,7 +54,7 @@ Route::get('/provinces/{province}/wisata', [ProvinceController::class, 'wisata']
 Route::get('/provinces/{province}/kuliner', [ProvinceController::class, 'kuliner']);
 
 // ============================================
-// CATEGORY ENDPOINTS (All Items)
+// CATEGORY ENDPOINTS (All Items - Updated)
 // ============================================
 Route::get('/all-tradisi', [ProvinceController::class, 'allTradisi']);
 Route::get('/all-peraturan', [ProvinceController::class, 'allPeraturan']);

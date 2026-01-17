@@ -8,14 +8,27 @@ use Illuminate\Http\Request;
 
 class TradisiController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        // Use explicit ordering to prevent pagination duplicates
-        // When multiple records have the same created_at, we need ID as tiebreaker
-        $tradisi = Tradisi::with('province')
+        $query = Tradisi::with('province')
             ->orderBy('created_at', 'desc')
-            ->orderBy('id', 'desc')
-            ->paginate(12);
+            ->orderBy('id', 'desc');
+        
+        // Cek apakah ada parameter 'all' untuk mengambil semua data
+        if ($request->has('all') && $request->get('all') == 'true') {
+            $tradisi = $query->get();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Semua data tradisi berhasil diambil',
+                'data' => $tradisi,
+                'total' => $tradisi->count()
+            ]);
+        }
+        
+        // Default: gunakan pagination
+        $perPage = $request->get('per_page', 12);
+        $tradisi = $query->paginate($perPage);
         
         return response()->json($tradisi);
     }
@@ -33,6 +46,7 @@ class TradisiController extends Controller
         $tradisi->load('province');
 
         return response()->json([
+            'success' => true,
             'message' => 'Tradisi created successfully',
             'data' => $tradisi
         ], 201);
@@ -42,7 +56,10 @@ class TradisiController extends Controller
     {
         $tradisi->load('province');
         
-        return response()->json($tradisi);
+        return response()->json([
+            'success' => true,
+            'data' => $tradisi
+        ]);
     }
 
     public function update(Request $request, Tradisi $tradisi)
@@ -58,6 +75,7 @@ class TradisiController extends Controller
         $tradisi->load('province');
 
         return response()->json([
+            'success' => true,
             'message' => 'Tradisi updated successfully',
             'data' => $tradisi
         ], 200);
@@ -68,6 +86,7 @@ class TradisiController extends Controller
         $tradisi->delete();
 
         return response()->json([
+            'success' => true,
             'message' => 'Tradisi deleted successfully'
         ], 200);
     }

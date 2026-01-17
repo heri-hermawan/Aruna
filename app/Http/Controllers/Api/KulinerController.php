@@ -8,12 +8,27 @@ use Illuminate\Http\Request;
 
 class KulinerController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $kuliner = Kuliner::with('province')
+        $query = Kuliner::with('province')
             ->orderBy('created_at', 'desc')
-            ->orderBy('id', 'desc')
-            ->paginate(12);
+            ->orderBy('id', 'desc');
+        
+        // Cek apakah ada parameter 'all' untuk mengambil semua data
+        if ($request->has('all') && $request->get('all') == 'true') {
+            $kuliner = $query->get();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Semua data kuliner berhasil diambil',
+                'data' => $kuliner,
+                'total' => $kuliner->count()
+            ]);
+        }
+        
+        // Default: gunakan pagination
+        $perPage = $request->get('per_page', 12);
+        $kuliner = $query->paginate($perPage);
         
         return response()->json($kuliner);
     }
@@ -32,6 +47,7 @@ class KulinerController extends Controller
         $kuliner->load('province');
 
         return response()->json([
+            'success' => true,
             'message' => 'Kuliner created successfully',
             'data' => $kuliner
         ], 201);
@@ -41,7 +57,10 @@ class KulinerController extends Controller
     {
         $kuliner->load('province');
         
-        return response()->json($kuliner);
+        return response()->json([
+            'success' => true,
+            'data' => $kuliner
+        ]);
     }
 
     public function update(Request $request, Kuliner $kuliner)
@@ -58,6 +77,7 @@ class KulinerController extends Controller
         $kuliner->load('province');
 
         return response()->json([
+            'success' => true,
             'message' => 'Kuliner updated successfully',
             'data' => $kuliner
         ], 200);
@@ -68,6 +88,7 @@ class KulinerController extends Controller
         $kuliner->delete();
 
         return response()->json([
+            'success' => true,
             'message' => 'Kuliner deleted successfully'
         ], 200);
     }
