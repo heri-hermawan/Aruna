@@ -22,6 +22,7 @@ class User extends Authenticatable implements FilamentUser
      */
     protected $fillable = [
         'name',
+        'username',
         'email',
         'password',
     ];
@@ -74,6 +75,7 @@ class User extends Authenticatable implements FilamentUser
         return in_array($this->email, [
             'admin@wisatanusantara.com',
             'admin@admin.com',
+            'admin@nusantara.com',
         ]);
     }
 }

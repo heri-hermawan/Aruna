@@ -27,13 +27,17 @@ class ChatController extends Controller
             $message = $request->input('message');
             
             // Generate AI-like response based on keywords
-            $response = $this->generateResponse($message);
+            $aiResponse = $this->generateResponse($message);
             
+            // Response format yang compatible dengan Flutter app
             return response()->json([
                 'success' => true,
-                'message' => $response,
-                'user_message' => $message,
-                'timestamp' => now()->toISOString()
+                'message' => 'Chat response generated successfully',
+                'data' => [
+                    'user_message' => $message,
+                    'ai_response' => $aiResponse,
+                    'timestamp' => now()->toISOString()
+                ]
             ], 200);
 
         } catch (\Illuminate\Validation\ValidationException $e) {
@@ -46,7 +50,7 @@ class ChatController extends Controller
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,
-                'message' => 'Maaf, saya tidak bisa memproses pertanyaan Anda saat ini.',
+                'message' => 'Gagal memproses pesan chat',
                 'error' => $e->getMessage()
             ], 500);
         }
@@ -57,50 +61,62 @@ class ChatController extends Controller
      */
     private function generateResponse(string $message): string
     {
-        $message = strtolower($message);
+        $messageLower = strtolower($message);
+        $messageClean = trim($messageLower);
         
         // Check for greeting
-        if ($this->isGreeting($message)) {
+        if ($this->isGreeting($messageClean)) {
             return $this->getGreeting();
         }
         
         // Check for thanks
-        if ($this->isThanks($message)) {
+        if ($this->isThanks($messageClean)) {
             return "Sama-sama! Senang bisa membantu. Ada yang bisa saya bantu lagi? 😊";
         }
         
+        // Check for inappropriate content first
+        if ($this->isInappropriateContent($messageClean)) {
+            return "Maaf, saya hanya bisa membantu dengan informasi tentang wisata, kuliner, tradisi, dan peraturan daerah di Indonesia. 🙏\n\n" .
+                   "Silakan tanyakan hal-hal seperti:\n" .
+                   "• Rekomendasi wisata atau kuliner\n" .
+                   "• Informasi provinsi tertentu\n" .
+                   "• Tradisi dan budaya daerah\n" .
+                   "• Peraturan daerah";
+        }
+        
         // Check for recommendation queries
-        if ($this->isRecommendationQuery($message)) {
-            return $this->getRecommendations($message);
+        if ($this->isRecommendationQuery($messageClean)) {
+            return $this->getRecommendations($messageClean);
         }
         
         // Check for province-specific queries
         $provinces = Province::all();
         foreach ($provinces as $province) {
-            if (str_contains($message, strtolower($province->name))) {
-                return $this->getProvinceInfo($province, $message);
+            $provinceLower = strtolower($province->name);
+            if (str_contains($messageClean, $provinceLower)) {
+                return $this->getProvinceInfo($province, $messageClean);
             }
         }
         
         // Check for category queries
-        if (str_contains($message, 'tradisi') || str_contains($message, 'budaya') || str_contains($message, 'adat')) {
-            return $this->getCategoryInfo('tradisi', $message);
+        if (str_contains($messageClean, 'tradisi') || str_contains($messageClean, 'budaya') || str_contains($messageClean, 'adat')) {
+            return $this->getCategoryInfo('tradisi', $messageClean);
         }
         
-        if (str_contains($message, 'wisata') || str_contains($message, 'tempat') || str_contains($message, 'destinasi') || str_contains($message, 'liburan')) {
-            return $this->getCategoryInfo('wisata', $message);
+        if (str_contains($messageClean, 'wisata') || str_contains($messageClean, 'tempat') || str_contains($messageClean, 'destinasi') || str_contains($messageClean, 'liburan')) {
+            return $this->getCategoryInfo('wisata', $messageClean);
         }
         
-        if (str_contains($message, 'kuliner') || str_contains($message, 'makanan') || str_contains($message, 'masakan') || str_contains($message, 'makan')) {
-            return $this->getCategoryInfo('kuliner', $message);
+        if (str_contains($messageClean, 'kuliner') || str_contains($messageClean, 'makanan') || str_contains($messageClean, 'masakan') || str_contains($messageClean, 'makan')) {
+            return $this->getCategoryInfo('kuliner', $messageClean);
         }
         
-        if (str_contains($message, 'peraturan') || str_contains($message, 'hukum') || str_contains($message, 'regulasi') || str_contains($message, 'aturan')) {
-            return $this->getCategoryInfo('peraturan', $message);
+        if (str_contains($messageClean, 'peraturan') || str_contains($messageClean, 'hukum') || str_contains($messageClean, 'regulasi') || str_contains($messageClean, 'aturan')) {
+            return $this->getCategoryInfo('peraturan', $messageClean);
         }
         
         // Check for help query
-        if (str_contains($message, 'bantuan') || str_contains($message, 'help') || str_contains($message, 'bisa apa') || str_contains($message, 'fitur')) {
+        if (str_contains($messageClean, 'bantuan') || str_contains($messageClean, 'help') || str_contains($messageClean, 'bisa apa') || str_contains($messageClean, 'fitur')) {
             return $this->getHelpInfo();
         }
         
@@ -109,11 +125,30 @@ class ChatController extends Controller
     }
 
     /**
+     * Check if message contains inappropriate content
+     */
+    private function isInappropriateContent(string $message): bool
+    {
+        $inappropriateWords = [
+            'peler', 'kontol', 'memek', 'anjing', 'bangsat', 
+            'tolol', 'bodoh', 'goblok', 'idiot', 'fuck'
+        ];
+        
+        foreach ($inappropriateWords as $word) {
+            if (str_contains($message, $word)) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
+
+    /**
      * Check if message is a greeting
      */
     private function isGreeting(string $message): bool
     {
-        $greetings = ['halo', 'hai', 'hello', 'hi', 'hey', 'selamat', 'pagi', 'siang', 'sore', 'malam'];
+        $greetings = ['halo', 'hai', 'hello', 'hi', 'hey', 'selamat', 'pagi', 'siang', 'sore', 'malam', 'hola', 'hy'];
         foreach ($greetings as $greeting) {
             if (str_contains($message, $greeting)) {
                 return true;
@@ -127,7 +162,7 @@ class ChatController extends Controller
      */
     private function isThanks(string $message): bool
     {
-        $thanks = ['terima kasih', 'thanks', 'makasih', 'thank you', 'thx'];
+        $thanks = ['terima kasih', 'thanks', 'makasih', 'thank you', 'thx', 'tengkyu'];
         foreach ($thanks as $thank) {
             if (str_contains($message, $thank)) {
                 return true;
@@ -141,7 +176,7 @@ class ChatController extends Controller
      */
     private function isRecommendationQuery(string $message): bool
     {
-        $keywords = ['rekomendasi', 'rekomendasikan', 'saran', 'usul', 'terbaik', 'populer', 'favorit', 'top', 'bagus', 'menarik'];
+        $keywords = ['rekomendasi', 'rekomendasikan', 'saran', 'usul', 'terbaik', 'populer', 'favorit', 'top', 'bagus', 'menarik', 'recommended'];
         foreach ($keywords as $keyword) {
             if (str_contains($message, $keyword)) {
                 return true;
@@ -161,7 +196,10 @@ class ChatController extends Controller
                "🏛️ Informasi tradisi dan budaya daerah\n" .
                "📜 Peraturan daerah di berbagai provinsi\n" .
                "🗺️ Eksplorasi 38 provinsi di Indonesia\n\n" .
-               "Silakan tanyakan apa saja! Misalnya: 'Rekomendasikan wisata di Bali' atau 'Kuliner khas Jawa Barat'";
+               "Silakan tanyakan apa saja! Misalnya:\n" .
+               "• 'Rekomendasikan wisata di Bali'\n" .
+               "• 'Kuliner khas Jawa Barat'\n" .
+               "• 'Tradisi budaya Sumatra'";
     }
 
     /**
@@ -170,12 +208,23 @@ class ChatController extends Controller
     private function getHelpInfo(): string
     {
         return "Berikut yang bisa saya bantu:\n\n" .
-               "🎯 **Rekomendasi**: 'Rekomendasikan wisata terbaik' atau 'Kuliner populer di Jakarta'\n" .
-               "🗺️ **Info Provinsi**: 'Ceritakan tentang Bali' atau 'Wisata di Yogyakarta'\n" .
-               "🎭 **Tradisi**: 'Tradisi di Sumatra Barat' atau 'Budaya Jawa'\n" .
-               "🍜 **Kuliner**: 'Makanan khas Padang' atau 'Kuliner Malang'\n" .
-               "🏖️ **Wisata**: 'Tempat wisata Lombok' atau 'Destinasi di Sulawesi'\n" .
-               "📜 **Peraturan**: 'Peraturan daerah Jakarta'\n\n" .
+               "🎯 Rekomendasi:\n" .
+               "   'Rekomendasikan wisata terbaik'\n" .
+               "   'Kuliner populer di Jakarta'\n\n" .
+               "🗺️ Info Provinsi:\n" .
+               "   'Ceritakan tentang Bali'\n" .
+               "   'Wisata di Yogyakarta'\n\n" .
+               "🎭 Tradisi:\n" .
+               "   'Tradisi di Sumatra Barat'\n" .
+               "   'Budaya Jawa'\n\n" .
+               "🍜 Kuliner:\n" .
+               "   'Makanan khas Padang'\n" .
+               "   'Kuliner Malang'\n\n" .
+               "🏖️ Wisata:\n" .
+               "   'Tempat wisata Lombok'\n" .
+               "   'Destinasi di Sulawesi'\n\n" .
+               "📜 Peraturan:\n" .
+               "   'Peraturan daerah Jakarta'\n\n" .
                "Coba tanyakan sekarang! 😊";
     }
 
@@ -188,18 +237,19 @@ class ChatController extends Controller
         $totalWisata = Wisata::count();
         $totalKuliner = Kuliner::count();
         
-        return "Saya dapat membantu Anda mencari informasi tentang:\n\n" .
+        return "Hmm, saya kurang memahami pertanyaan Anda. 🤔\n\n" .
+               "Saya dapat membantu Anda mencari informasi tentang:\n\n" .
                "📍 {$totalProvinces} provinsi di Indonesia\n" .
                "🏖️ {$totalWisata}+ destinasi wisata menarik\n" .
                "🍜 {$totalKuliner}+ kuliner khas nusantara\n" .
                "🎭 Berbagai tradisi dan budaya daerah\n" .
                "📜 Peraturan daerah di seluruh Indonesia\n\n" .
-               "**Contoh pertanyaan:**\n" .
-               "• 'Rekomendasikan wisata terbaik di Indonesia'\n" .
+               "Contoh pertanyaan yang bisa Anda tanyakan:\n" .
+               "• 'Rekomendasikan wisata terbaik'\n" .
                "• 'Kuliner khas Sumatra Utara'\n" .
                "• 'Tradisi budaya Bali'\n" .
                "• 'Ceritakan tentang Papua'\n\n" .
-               "Silakan tanyakan apa yang ingin Anda ketahui! 😊";
+               "Silakan coba lagi dengan pertanyaan yang lebih spesifik! 😊";
     }
 
     /**
@@ -207,7 +257,6 @@ class ChatController extends Controller
      */
     private function getRecommendations(string $message): string
     {
-        // Check if asking for wisata recommendations
         if (str_contains($message, 'wisata') || str_contains($message, 'tempat') || str_contains($message, 'destinasi')) {
             $wisatas = Wisata::with('province')->inRandomOrder()->take(5)->get();
             
@@ -215,12 +264,13 @@ class ChatController extends Controller
                 return "Maaf, saat ini belum ada data wisata yang tersedia.";
             }
             
-            $response = "🏖️ **Rekomendasi Wisata Terbaik:**\n\n";
+            $response = "🏖️ Rekomendasi Wisata Terbaik:\n\n";
             foreach ($wisatas as $index => $wisata) {
                 $number = $index + 1;
-                $response .= "{$number}. **{$wisata->name}** ({$wisata->province->name})\n";
+                $response .= "{$number}. {$wisata->name}\n";
+                $response .= "   📍 {$wisata->province->name}\n";
                 if ($wisata->description) {
-                    $desc = substr($wisata->description, 0, 100);
+                    $desc = substr($wisata->description, 0, 80);
                     $response .= "   {$desc}...\n";
                 }
                 $response .= "\n";
@@ -230,7 +280,6 @@ class ChatController extends Controller
             return $response;
         }
         
-        // Check if asking for kuliner recommendations
         if (str_contains($message, 'kuliner') || str_contains($message, 'makanan') || str_contains($message, 'makan')) {
             $kuliners = Kuliner::with('province')->inRandomOrder()->take(5)->get();
             
@@ -238,16 +287,17 @@ class ChatController extends Controller
                 return "Maaf, saat ini belum ada data kuliner yang tersedia.";
             }
             
-            $response = "🍜 **Rekomendasi Kuliner Terbaik:**\n\n";
+            $response = "🍜 Rekomendasi Kuliner Terbaik:\n\n";
             foreach ($kuliners as $index => $kuliner) {
                 $number = $index + 1;
-                $response .= "{$number}. **{$kuliner->name}** ({$kuliner->province->name})\n";
+                $response .= "{$number}. {$kuliner->name}\n";
+                $response .= "   📍 {$kuliner->province->name}\n";
                 if ($kuliner->description) {
-                    $desc = substr($kuliner->description, 0, 100);
+                    $desc = substr($kuliner->description, 0, 80);
                     $response .= "   {$desc}...\n";
                 }
                 if ($kuliner->price) {
-                    $response .= "   💰 Harga: Rp " . number_format($kuliner->price, 0, ',', '.') . "\n";
+                    $response .= "   💰 Rp " . number_format($kuliner->price, 0, ',', '.') . "\n";
                 }
                 $response .= "\n";
             }
@@ -256,11 +306,12 @@ class ChatController extends Controller
             return $response;
         }
         
-        // General recommendations
         return "Saya bisa memberikan rekomendasi untuk:\n\n" .
-               "🏖️ **Wisata**: Destinasi wisata terbaik di seluruh Indonesia\n" .
-               "🍜 **Kuliner**: Makanan khas daerah dengan rating tinggi\n\n" .
-               "Coba tanyakan: 'Rekomendasikan wisata terbaik' atau 'Rekomendasikan kuliner populer'";
+               "🏖️ Wisata: Destinasi wisata terbaik di seluruh Indonesia\n" .
+               "🍜 Kuliner: Makanan khas daerah dengan rating tinggi\n\n" .
+               "Coba tanyakan:\n" .
+               "• 'Rekomendasikan wisata terbaik'\n" .
+               "• 'Rekomendasikan kuliner populer'";
     }
 
     /**
@@ -270,65 +321,83 @@ class ChatController extends Controller
     {
         $province->load(['tradisis', 'wisatas', 'kuliners', 'peraturans']);
         
-        // Check for specific category in province query
         if (str_contains($message, 'tradisi') || str_contains($message, 'budaya') || str_contains($message, 'adat')) {
             $count = $province->tradisis->count();
             $items = $province->tradisis->take(3);
-            $names = $items->pluck('name')->join(', ');
             
-            return "🎭 **Tradisi & Budaya {$province->name}**\n\n" .
-                   "Terdapat **{$count} tradisi** yang terdaftar di {$province->name}" .
-                   ($names ? ", antara lain:\n• " . str_replace(', ', "\n• ", $names) : "") .
-                   "\n\n💡 Kunjungi halaman provinsi {$province->name} untuk detail lengkap setiap tradisi!";
+            $response = "🎭 Tradisi & Budaya {$province->name}\n\n";
+            $response .= "Terdapat {$count} tradisi yang terdaftar di {$province->name}";
+            
+            if ($items->isNotEmpty()) {
+                $response .= ", antara lain:\n\n";
+                foreach ($items as $item) {
+                    $response .= "• {$item->name}\n";
+                }
+            }
+            
+            $response .= "\n💡 Kunjungi halaman provinsi {$province->name} untuk detail lengkap setiap tradisi!";
+            return $response;
         }
         
         if (str_contains($message, 'wisata') || str_contains($message, 'tempat') || str_contains($message, 'destinasi')) {
             $count = $province->wisatas->count();
             $items = $province->wisatas->take(3);
-            $names = $items->pluck('name')->join(', ');
             
-            return "🏖️ **Wisata di {$province->name}**\n\n" .
-                   "Terdapat **{$count} destinasi wisata** menarik di {$province->name}" .
-                   ($names ? ", seperti:\n• " . str_replace(', ', "\n• ", $names) : "") .
-                   "\n\n💡 Lihat halaman Rekomendasi untuk wisata {$province->name} dengan rating terbaik!";
+            $response = "🏖️ Wisata di {$province->name}\n\n";
+            $response .= "Terdapat {$count} destinasi wisata menarik";
+            
+            if ($items->isNotEmpty()) {
+                $response .= ", seperti:\n\n";
+                foreach ($items as $item) {
+                    $response .= "• {$item->name}\n";
+                }
+            }
+            
+            $response .= "\n💡 Lihat halaman Rekomendasi untuk wisata {$province->name} dengan rating terbaik!";
+            return $response;
         }
         
         if (str_contains($message, 'kuliner') || str_contains($message, 'makanan') || str_contains($message, 'makan')) {
             $count = $province->kuliners->count();
             $items = $province->kuliners->take(3);
-            $names = $items->pluck('name')->join(', ');
             
-            return "🍜 **Kuliner Khas {$province->name}**\n\n" .
-                   "{$province->name} memiliki **{$count} kuliner khas**" .
-                   ($names ? ", termasuk:\n• " . str_replace(', ', "\n• ", $names) : "") .
-                   "\n\n💡 Cek halaman provinsi untuk informasi detail harga dan lokasi!";
+            $response = "🍜 Kuliner Khas {$province->name}\n\n";
+            $response .= "{$province->name} memiliki {$count} kuliner khas";
+            
+            if ($items->isNotEmpty()) {
+                $response .= ", termasuk:\n\n";
+                foreach ($items as $item) {
+                    $response .= "• {$item->name}\n";
+                }
+            }
+            
+            $response .= "\n💡 Cek halaman provinsi untuk informasi detail harga dan lokasi!";
+            return $response;
         }
         
         if (str_contains($message, 'peraturan') || str_contains($message, 'hukum') || str_contains($message, 'aturan')) {
             $count = $province->peraturans->count();
             
-            return "📜 **Peraturan Daerah {$province->name}**\n\n" .
-                   "Terdapat **{$count} peraturan daerah** yang tercatat di {$province->name}.\n\n" .
+            return "📜 Peraturan Daerah {$province->name}\n\n" .
+                   "Terdapat {$count} peraturan daerah yang tercatat di {$province->name}.\n\n" .
                    "💡 Kunjungi halaman Peraturan untuk melihat detail setiap regulasi!";
         }
         
-        // General province info
         $tradisiCount = $province->tradisis->count();
         $wisataCount = $province->wisatas->count();
         $kulinerCount = $province->kuliners->count();
         $peraturanCount = $province->peraturans->count();
         
-        return "📍 **Informasi {$province->name}**\n\n" .
+        return "📍 Informasi {$province->name}\n\n" .
                "{$province->name} memiliki:\n" .
                "🎭 {$tradisiCount} tradisi & budaya\n" .
                "🏖️ {$wisataCount} destinasi wisata\n" .
                "🍜 {$kulinerCount} kuliner khas\n" .
                "📜 {$peraturanCount} peraturan daerah\n\n" .
-               "**Apa yang ingin Anda ketahui lebih lanjut?**\n" .
+               "Apa yang ingin Anda ketahui lebih lanjut?\n" .
                "• Wisata di {$province->name}\n" .
                "• Kuliner khas {$province->name}\n" .
-               "• Tradisi budaya {$province->name}\n" .
-               "• Peraturan daerah {$province->name}";
+               "• Tradisi budaya {$province->name}";
     }
 
     /**
@@ -340,39 +409,60 @@ class ChatController extends Controller
             case 'tradisi':
                 $count = Tradisi::count();
                 $recent = Tradisi::with('province')->latest()->take(3)->get();
-                $items = $recent->map(fn($t) => "• {$t->name} ({$t->province->name})")->join("\n");
                 
-                return "🎭 **Tradisi & Budaya Nusantara**\n\n" .
-                       "Kami memiliki **{$count} tradisi** dari berbagai provinsi di Indonesia.\n\n" .
-                       "**Beberapa tradisi yang baru ditambahkan:**\n{$items}\n\n" .
-                       "💡 Kunjungi halaman Tradisi untuk melihat koleksi lengkap budaya Indonesia!";
+                $response = "🎭 Tradisi & Budaya Nusantara\n\n";
+                $response .= "Kami memiliki {$count} tradisi dari berbagai provinsi di Indonesia.\n\n";
+                
+                if ($recent->isNotEmpty()) {
+                    $response .= "Beberapa tradisi yang baru ditambahkan:\n";
+                    foreach ($recent as $item) {
+                        $response .= "• {$item->name} ({$item->province->name})\n";
+                    }
+                }
+                
+                $response .= "\n💡 Kunjungi halaman Tradisi untuk melihat koleksi lengkap budaya Indonesia!";
+                return $response;
                 
             case 'wisata':
                 $count = Wisata::count();
                 $recent = Wisata::with('province')->latest()->take(3)->get();
-                $items = $recent->map(fn($w) => "• {$w->name} ({$w->province->name})")->join("\n");
                 
-                return "🏖️ **Destinasi Wisata Indonesia**\n\n" .
-                       "Terdapat **{$count} destinasi wisata** menarik di seluruh Indonesia.\n\n" .
-                       "**Wisata terbaru:**\n{$items}\n\n" .
-                       "💡 Lihat halaman Rekomendasi untuk wisata dengan rating dan popularitas tertinggi!";
+                $response = "🏖️ Destinasi Wisata Indonesia\n\n";
+                $response .= "Terdapat {$count} destinasi wisata menarik di seluruh Indonesia.\n\n";
+                
+                if ($recent->isNotEmpty()) {
+                    $response .= "Wisata terbaru:\n";
+                    foreach ($recent as $item) {
+                        $response .= "• {$item->name} ({$item->province->name})\n";
+                    }
+                }
+                
+                $response .= "\n💡 Lihat halaman Rekomendasi untuk wisata dengan rating dan popularitas tertinggi!";
+                return $response;
                 
             case 'kuliner':
                 $count = Kuliner::count();
                 $recent = Kuliner::with('province')->latest()->take(3)->get();
-                $items = $recent->map(fn($k) => "• {$k->name} ({$k->province->name})")->join("\n");
                 
-                return "🍜 **Kuliner Khas Indonesia**\n\n" .
-                       "Indonesia kaya akan kuliner! Kami mencatat **{$count} makanan khas** nusantara.\n\n" .
-                       "**Kuliner yang baru ditambahkan:**\n{$items}\n\n" .
-                       "💡 Cek halaman Rekomendasi untuk kuliner dengan rating rasa terbaik!";
+                $response = "🍜 Kuliner Khas Indonesia\n\n";
+                $response .= "Indonesia kaya akan kuliner! Kami mencatat {$count} makanan khas nusantara.\n\n";
+                
+                if ($recent->isNotEmpty()) {
+                    $response .= "Kuliner yang baru ditambahkan:\n";
+                    foreach ($recent as $item) {
+                        $response .= "• {$item->name} ({$item->province->name})\n";
+                    }
+                }
+                
+                $response .= "\n💡 Cek halaman Rekomendasi untuk kuliner dengan rating rasa terbaik!";
+                return $response;
                 
             case 'peraturan':
                 $count = Peraturan::count();
                 $provinces = Province::has('peraturans')->count();
                 
-                return "📜 **Peraturan Daerah Indonesia**\n\n" .
-                       "Terdapat **{$count} peraturan daerah** dari **{$provinces} provinsi** di Indonesia.\n\n" .
+                return "📜 Peraturan Daerah Indonesia\n\n" .
+                       "Terdapat {$count} peraturan daerah dari {$provinces} provinsi di Indonesia.\n\n" .
                        "💡 Kunjungi halaman Peraturan untuk melihat detail regulasi setiap daerah!";
                 
             default:
@@ -380,5 +470,3 @@ class ChatController extends Controller
         }
     }
 }
-
-//kkkk

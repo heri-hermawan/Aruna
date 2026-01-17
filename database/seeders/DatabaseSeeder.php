@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
             PeraturanSeeder::class,
             WisataSeeder::class,
             KulinerSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }

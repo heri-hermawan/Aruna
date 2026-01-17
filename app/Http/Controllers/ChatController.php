@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Exception\ConnectException;
+use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Exception\ServerException;
 
 class ChatController extends Controller
 {
@@ -72,27 +75,91 @@ class ChatController extends Controller
                     'error' => 'Respons API tidak valid',
                 ], 400);
             }
-        } catch (GuzzleException $e) {
-            $errorMessage = $e->getMessage();
+
+        } catch (ClientException $e) {
+            // Handle 4xx errors (Bad Request, Unauthorized, Forbidden, etc)
+            $errorMessage = 'API Error: ';
             
-            // Handle specific Groq API errors
             if ($e->hasResponse()) {
+                $statusCode = $e->getResponse()->getStatusCode();
                 $responseBody = json_decode($e->getResponse()->getBody(), true);
+                
                 if (isset($responseBody['error']['message'])) {
-                    $errorMessage = $responseBody['error']['message'];
+                    $errorMessage .= $responseBody['error']['message'];
+                } else {
+                    $errorMessage .= $e->getMessage();
                 }
+                
+                // Handle specific error codes
+                if ($statusCode === 401) {
+                    $errorMessage = 'API Key tidak valid. Periksa konfigurasi GROQ_API_KEY.';
+                } elseif ($statusCode === 429) {
+                    $errorMessage = 'Terlalu banyak request. Silakan coba lagi nanti.';
+                }
+            } else {
+                $errorMessage .= $e->getMessage();
             }
             
             return response()->json([
                 'success' => false,
-                'error' => 'Terjadi kesalahan: ' . $errorMessage,
-            ], 500);
-        } catch (\Exception $e) {
+                'error' => $errorMessage,
+            ], $e->getCode() ?: 400);
+            
+        } catch (ServerException $e) {
+            // Handle 5xx errors (Internal Server Error, Bad Gateway, etc)
+            $errorMessage = 'Server Groq mengalami masalah: ';
+            
+            if ($e->hasResponse()) {
+                $responseBody = json_decode($e->getResponse()->getBody(), true);
+                
+                if (isset($responseBody['error']['message'])) {
+                    $errorMessage .= $responseBody['error']['message'];
+                } else {
+                    $errorMessage .= $e->getMessage();
+                }
+            } else {
+                $errorMessage .= $e->getMessage();
+            }
+            
             return response()->json([
                 'success' => false,
-                'error' => 'Terjadi kesalahan: ' . $e->getMessage(),
+                'error' => $errorMessage,
+            ], $e->getCode() ?: 500);
+            
+        } catch (ConnectException $e) {
+            // Handle connection errors (timeout, DNS failure, network issues)
+            return response()->json([
+                'success' => false,
+                'error' => 'Tidak dapat terhubung ke server Groq. Periksa koneksi internet Anda.',
+            ], 503);
+            
+        } catch (RequestException $e) {
+            // Handle other request-related errors
+            $errorMessage = 'Request error: ';
+            
+            if ($e->hasResponse()) {
+                $responseBody = json_decode($e->getResponse()->getBody(), true);
+                
+                if (isset($responseBody['error']['message'])) {
+                    $errorMessage .= $responseBody['error']['message'];
+                } else {
+                    $errorMessage .= $e->getMessage();
+                }
+            } else {
+                $errorMessage .= $e->getMessage();
+            }
+            
+            return response()->json([
+                'success' => false,
+                'error' => $errorMessage,
+            ], 500);
+            
+        } catch (\Exception $e) {
+            // Catch-all for any other unexpected errors
+            return response()->json([
+                'success' => false,
+                'error' => 'Terjadi kesalahan tidak terduga: ' . $e->getMessage(),
             ], 500);
         }
     }
 }
-

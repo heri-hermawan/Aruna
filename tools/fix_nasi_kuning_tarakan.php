@@ -1,0 +1,33 @@
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$app = require_once __DIR__ . '/../bootstrap/app.php';
+$kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
+$kernel->bootstrap();
+
+use App\Models\Kuliner;
+
+echo "Checking Nasi Kuning Khas Tarakan entries...\n\n";
+
+// Find Nasi Kuning entries
+$kuliners = Kuliner::where('name', 'LIKE', '%Nasi Kuning%Tarakan%')->get();
+
+echo "Found " . $kuliners->count() . " entries\n\n";
+
+foreach ($kuliners as $kuliner) {
+    echo "ID: {$kuliner->id}\n";
+    echo "Name: {$kuliner->name}\n";
+    echo "Current Image: " . ($kuliner->image ?? 'NULL') . "\n";
+    
+    // Update to correct path
+    $newPath = 'images/kuliner/Nasi_Kuning_Tarakan.png';
+    
+    $kuliner->image = $newPath;
+    $kuliner->save();
+    
+    echo "Updated Image: {$newPath}\n";
+    echo "---\n";
+}
+
+echo "\nDone!\n";
